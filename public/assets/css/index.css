@@ -1,0 +1,368 @@
+/* ============= Car Services ================= */
+/* Section Styling */
+.services-section {
+  padding-top: 0px !important;
+  background: var(--bacckground);
+  padding-top: 3rem;
+}
+
+.services-section a {
+  text-decoration: none;
+}
+
+/* Section Heading */
+.section-heading {
+  text-align: center;
+  margin-bottom: 1.8rem;
+  position: relative;
+}
+
+.section-subtitle {
+  font-size: 0.95rem;
+  color: var(--section-subtitle);
+  margin: 0;
+}
+
+/* Service Cards */
+.service-card {
+  position: relative;
+  border-radius: 16px;
+  color: var(--card-text);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  background-size: cover;
+}
+
+.service-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  /* dark overlay for readability */
+  z-index: 1;
+  border-radius: 16px;
+}
+
+.service-card * {
+  position: relative;
+  z-index: 2;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+.service-card .icon {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+}
+
+.service-card h5 {
+  font-size: 1.5rem;
+  color: var(--white);
+  font-weight: 600;
+  padding-top: 40px;
+}
+
+.service-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Background images for each card */
+.bg-service-1 {
+  background-image: url("../img/services/1.png");
+}
+
+.bg-service-2 {
+  background-image: url("../img/services/2.png");
+}
+
+.bg-service-3 {
+  background-image: url("../img/services/3.png");
+}
+
+.bg-service-4 {
+  background-image: url("../img/services/4.png");
+}
+
+.bg-service-5 {
+  background-image: url("../img/services/5.png");
+}
+
+.bg-service-6 {
+  background-image: url("../img/services/6.png");
+}
+
+.text-center i {
+  color: white;
+  font-size: 1.7rem;
+}
+
+/* Responsive grid */
+@media (min-width: 768px) {
+  /* Desktop - 2 per row */
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Mobile - 3 per row */
+  .col-4 {
+    flex: 0 0 auto;
+    width: 33.3333%;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  .service-card .icon {
+    font-size: 1.5rem;
+    padding-bottom: 25px;
+  }
+
+  .service-card h5 {
+    font-size: 0.8rem;
+    padding-top: 20px;
+  }
+
+  .service-card {
+    height: 100px;
+  }
+
+  .book-now-btn {
+    padding: 12px 24px !important;
+    font-size: 0.95rem !important;
+  }
+}
+
+/* ===================== Blogs Section =========================== */
+.blog-tags-group {
+  margin-top: 6px;
+  margin-bottom: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.blog-tags {
+  background: #ff3d2f;
+  color: #fff;
+  font-size: 0.81rem;
+  font-weight: 500;
+  border-radius: 7px;
+  padding: 3px 8px;
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 992px) {
+  .blogs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.blogs-section {
+  margin: 50px auto;
+}
+
+.blogs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.blog-date {
+  color: #7e7009;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-top: 3px;
+  margin-bottom: 0;
+  letter-spacing: 0.5px;
+}
+
+.blogs-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.blog-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px 24px;
+}
+
+.blog-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(81, 97, 127, 0.1);
+  width: 100%;
+  max-width: 350px;
+  padding: 2px 2px 4px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition:
+    box-shadow 0.2s,
+    transform 0.18s;
+}
+
+.blog-card:hover {
+  box-shadow: 0 10px 24px rgba(81, 97, 127, 0.15);
+  transform: translateY(-6px);
+}
+
+.blog-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 9px;
+  margin-bottom: 14px;
+}
+
+.blog-title {
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 6px;
+  padding-left: 2px;
+}
+
+.blog-desc {
+  color: #64686d;
+  font-size: 0.91rem;
+  margin-bottom: 0;
+  padding: 2px;
+}
+
+.blog-card {
+  flex: 1 1 30%;
+  max-width: 31%;
+}
+
+@media (max-width: 800px) {
+  .blog-card {
+    max-width: 32%;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 576px) {
+  .explore-bttn {
+    width: 235px !important;
+    font-weight: 500 !important;
+    font-size: 0.95rem !important;
+    padding: 8px 8px !important;
+  }
+
+  .blog-tag {
+    font-size: 0.51rem;
+  }
+
+  .blog-title {
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+  }
+
+  .blog-date {
+    font-size: 0.6rem;
+  }
+
+  .blog-desc {
+    font-size: 0.6rem;
+  }
+
+  .blog-card {
+    max-width: 49%;
+    padding: 5px 5px 5px 5px;
+  }
+
+  .blog-img {
+    height: 98px;
+  }
+
+  .blog-row {
+    gap: 15px 8px;
+  }
+
+  .blog-card.hide-mobile {
+    display: none !important;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 400px) {
+  .blog-card {
+    max-width: 99vw;
+  }
+
+  .blog-card p {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.explore-bttn {
+  display: block;
+  width: 262px;
+  margin: 30px auto 0;
+  background: #222;
+  color: #fff7cc;
+  font-weight: 700;
+  font-size: 1.15rem;
+  padding: 13px 44px;
+  border-radius: 8px;
+  border: none;
+  transition:
+    background 0.2s,
+    color 0.2s;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.explore-bttn:hover {
+  background: #ffce25;
+  color: #222;
+}
+
+.blog-content {
+  padding-left: 8px;
+}
+
+/* --------------------------------------------- */
+/* SHOW ONLY FIRST 3 BLOGS ON DESKTOP */
+/* --------------------------------------------- */
+.blog-card:nth-child(n + 4) {
+  display: none;
+}
+
+/* --------------------------------------------- */
+/* SHOW ONLY FIRST 2 BLOGS ON MOBILE */
+/* --------------------------------------------- */
+@media (max-width: 576px) {
+  .blog-card:nth-child(n + 3) {
+    display: none !important;
+  }
+}

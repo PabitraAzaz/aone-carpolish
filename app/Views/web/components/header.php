@@ -9,9 +9,8 @@
   <!-- Bootstrap (optional, for your global site styles) -->
   <link href="<?= base_url() ?>public/assets/css/bootstrap-bundle-min.css" rel="stylesheet">
 
-  <!-- ✅ Make sure Bootstrap JS  -->
+  <!-- Bootstrap JS  -->
   <script src="<?= base_url() ?>public/assets/js/bootstrap-bundle-min.js"></script>
-
 
   <!-- Swiper CSS -->
   <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/swiper-bundle.min.css" />
@@ -20,25 +19,18 @@
   <script src="<?= base_url() ?>public/assets/js/swiper-bundle-min.js"></script>
 
   <!-- Font Awesome Icons -->
-  <link href="<?= base_url() ?>public/assets/css/font-awesome-min.css" rel="stylesheet">
+  <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/font-awesome-min.css">
 
-  <link href="<?= base_url() ?>public/assets/css/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/bootstrap-icons.css">
 
+  <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/googleapis.css" />
 
-  <link
-    href="<?= base_url() ?>public/assets/css/googleapis.css"
-    rel="stylesheet" />
-
-
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/style.css?v=124" />
-  <!-- <script src="script.js"></script> -->
+  <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/header.css?v=124" />
 
-  <!-- 🚀 IMMEDIATE PRELOADER SKIP - Before DOM renders -->
+  <!-- IMMEDIATE PRELOADER SKIP - Before DOM renders -->
   <script>
     (function() {
       // Check sessionStorage immediately on page load
@@ -60,27 +52,21 @@
 
 <body>
 
-
-  <!--==============================
-     Preloader
-    ==============================-->
-
-
   <!-- ===================== HEADER ===================== -->
   <header class="main-header">
     <div class="header-container">
 
       <!-- Brand Logo (Mobile) -->
-      <a href="<?= base_url() ?>/" class="logo logo--mobile">
-        <img src="<?= base_url('public/assets/img/logo.png') ?>" alt="AONE Car Polish Mobile" />
+      <a href="<?= base_url() ?>" class="logo logo--mobile">
+        <img src="<?= base_url('public/assets/img/logo/logo.png') ?>" alt="AONE Car Polish" />
       </a>
 
       <!-- Mobile Brand Text -->
       <span class="mobile-brand-text"><span style="color: red;">A-One</span> Car Polish</span>
 
       <!-- Brand Logo (Desktop) -->
-      <a href="<?= base_url() ?>/" class="logo logo--desktop">
-        <img src="<?= base_url('public/assets/img/aone-car-polish-logo.png') ?>" alt="AONE Car Polish Desktop" />
+      <a href="<?= base_url() ?>" class="logo logo--desktop">
+        <img src="<?= base_url('public/assets/img/logo/logo-black.png') ?>" alt="Aone Car Polish Logo" />
       </a>
 
       <!-- Profile Icon -->
@@ -93,12 +79,13 @@
     <!-- Desktop Navigation -->
     <nav class="desktop-nav">
       <a href="<?= base_url() ?>" class="nav-link active">Home</a>
-      <a href="<?= base_url() ?>services" class="nav-link">Services</a>
-      <a href="<?= base_url('before_after') ?>" class="nav-link">Before/After</a>
-      <a href="<?= base_url('contact_us') ?>" class="nav-link">Contact</a>
+      <a href="<?= base_url('services') ?>" class="nav-link">Services</a>
+      <a href="<?= base_url('before-after') ?>" class="nav-link">Before/After</a>
+      <a href="<?= base_url('contact-us') ?>" class="nav-link">Contact</a>
       <a href="<?= base_url('blogs') ?>" class="nav-link">Blogs</a>
     </nav>
   </header>
+
   <style>
     /* Mobile brand text */
     .mobile-brand-text {
@@ -122,7 +109,5 @@
         flex: 1;
         text-align: center;
       }
-
-
     }
   </style>

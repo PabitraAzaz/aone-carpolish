@@ -23,10 +23,10 @@
             <div class="comparison-card">
                 <div class="img-comp">
                     <div class="img-comp-img">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\old_creta.png" alt="Before" style="">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\old_creta.png" alt="Before" style="">
                     </div>
                     <div class="img-comp-overlay">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\new_creta.png" alt="After">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\new_creta.png" alt="After">
                     </div>
                 </div>
                 <h3>Hyundai Creta</h3>
@@ -37,10 +37,10 @@
             <div class="comparison-card">
                 <div class="img-comp">
                     <div class="img-comp-img">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\old_swift.png" alt="Before">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\old_swift.png" alt="Before">
                     </div>
                     <div class="img-comp-overlay">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\new_swift.png" alt="After">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\new_swift.png" alt="After">
                     </div>
                 </div>
                 <h3>Maruti Suzuki Swift</h3>
@@ -51,10 +51,10 @@
             <div class="comparison-card">
                 <div class="img-comp">
                     <div class="img-comp-img">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\old_wagon.png" alt="Before">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\old_wagon.png" alt="Before">
                     </div>
                     <div class="img-comp-overlay">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\new_wagon.png" alt="After">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\new_wagon.png" alt="After">
                     </div>
                 </div>
                 <h3>Maruti Suzuki Wagon R </h3>
@@ -67,10 +67,10 @@
             <div class="comparison-card">
                 <div class="img-comp">
                     <div class="img-comp-img">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\old_punch.png" alt="Before">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\old_punch.png" alt="Before">
                     </div>
                     <div class="img-comp-overlay">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\new_punch.png" alt="After">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\new_punch.png" alt="After">
                     </div>
                 </div>
                 <h3>Tata Punch 2025</h3>
@@ -81,10 +81,10 @@
             <div class="comparison-card">
                 <div class="img-comp">
                     <div class="img-comp-img">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\old_ertiga.png" alt="Before">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\old_ertiga.png" alt="Before">
                     </div>
                     <div class="img-comp-overlay">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\new_ertiga.png" alt="After">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\new_ertiga.png" alt="After">
                     </div>
                 </div>
                 <h3>Maruti Suzuki Ertiga</h3>
@@ -95,10 +95,10 @@
             <div class="comparison-card">
                 <div class="img-comp">
                     <div class="img-comp-img">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\old_brezza.png" alt="Before">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\old_brezza.png" alt="Before">
                     </div>
                     <div class="img-comp-overlay">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\new_brezza.png" alt="After">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\new_brezza.png" alt="After">
                     </div>
                 </div>
                 <h3>Maruti Suzuki Brezza</h3>
@@ -111,10 +111,10 @@
             <div class="comparison-card">
                 <div class="img-comp">
                     <div class="img-comp-img">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\old_nexon.png" alt="Before">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\old_nexon.png" alt="Before">
                     </div>
                     <div class="img-comp-overlay">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\new_nexon.png" alt="After">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\new_nexon.png" alt="After">
                     </div>
                 </div>
                 <h3>Tata Nexon</h3>
@@ -125,10 +125,10 @@
             <div class="comparison-card">
                 <div class="img-comp">
                     <div class="img-comp-img">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\old_scorpio.png" alt="Before">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\old_scorpio.png" alt="Before">
                     </div>
                     <div class="img-comp-overlay">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\new_scorpio.png" alt="After">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\new_scorpio.png" alt="After">
                     </div>
                 </div>
                 <h3>Mahindra Scorpio</h3>
@@ -139,10 +139,10 @@
             <div class="comparison-card">
                 <div class="img-comp">
                     <div class="img-comp-img">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\old_desire.png" alt="Before">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\old_desire.png" alt="Before">
                     </div>
                     <div class="img-comp-overlay">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\new_desire.png" alt="After">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\new_desire.png" alt="After">
                     </div>
                 </div>
                 <h3>Maruti Suzuki Dsire</h3>
@@ -155,10 +155,10 @@
             <div class="comparison-card">
                 <div class="img-comp">
                     <div class="img-comp-img">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\old_baleno.png" alt="Before">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\old_baleno.png" alt="Before">
                     </div>
                     <div class="img-comp-overlay">
-                        <img loading="lazy" src="<?= base_url() ?>public\assets\web\img\new_baleno.png" alt="After">
+                        <img loading="lazy" src="<?= base_url() ?>public\assets\img\new_baleno.png" alt="After">
                     </div>
                 </div>
                 <h3>Maruti Suzuki Baleno</h3>

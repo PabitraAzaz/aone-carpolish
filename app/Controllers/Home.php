@@ -510,7 +510,7 @@ class Home extends BaseController
 
     public function before_after(): string
     {
-        return view('web/before_after_new');
+        return view('web/before_after');
     }
 
     public function before_after_new(): string

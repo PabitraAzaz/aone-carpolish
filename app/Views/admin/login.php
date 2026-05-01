@@ -235,7 +235,7 @@
 
         <!-- Logo -->
         <div class="logo-area">
-            <img src="<?= base_url('public/assets/img/logo.png') ?>" alt="Logo">
+            <img src="<?= base_url('public/assets/img/logo/logo.png') ?>" alt="Logo">
         </div>
 
         <h4 class="mb-2">Welcome Back</h4>

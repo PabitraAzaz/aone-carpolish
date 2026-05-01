@@ -1,34 +1,17 @@
 <?= $this->extend('web/components/assemble') ?>
 <?= $this->section('content') ?>
 
-
-
-
-
-
-
-<!-- ========================= -->
-
-
-
 <!-- ============== Banner ================= -->
-
 
 <!-- Banner with animated "Services" text -->
 <div class="banner service-banner">
   <h1><span class="typed-text typed-service">Services</span></h1>
 </div>
-
-
-
-<!-- ========================================== -->
+<!-- ==================================== -->
 
 
 <!-- ============= Car Services =================  -->
-
-
-
-<section>
+<section style="max-width: 1500px; margin: auto;">
   <div class="padd-mar">
     <h2 class="section-title">Our Premium Services</h2>
   </div>
@@ -104,7 +87,7 @@
         </div>
       </div>
 
-      <div class="service-card tall" >
+      <div class="service-card tall">
         <div class="card-img-wrapper">
           <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Scratch Removal">
           <div class="play-button">&#9658;</div>
@@ -117,32 +100,12 @@
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- ================================================================ -->
+
 <hr>
 
 <!-- Brands Section -->
-<section class="brand-glass-section">
+<section class="brand-glass-section" style="max-width: 1500px; margin: auto;">
   <h2 class="section-title">Brands We Trust</h2>
 
   <div class="swiper glassBrandSwiper">
@@ -196,7 +159,6 @@
 </section>
 
 <hr>
-
 
 <style>
   /* SECTION BACKGROUND */
@@ -291,10 +253,6 @@
   }
 </style>
 
-
-
-
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
@@ -327,128 +285,106 @@
   });
 </script>
 
-
 <!-- ============== Types of Car Wash============================= -->
+<section style="max-width: 1500px; margin: auto;">
+  <div class="container car-wash padd-mar">
+    <h3 class="section-title">Types of Car Washes</h4>
+      <div class="row g-3">
+        <!-- Basic Wash -->
+        <div class="col-6 col-md-3">
+          <div class="car-wash-type-card">
+            <img src="<?= base_url() ?>public/assets/img/car_wash/basic_wash.png" class="car-wash-type-bg" alt="Basic Wash">
+            <div class="car-wash-type-overlay"></div>
+            <div class="car-wash-type-content">
+              <div class="car-wash-type-title">Basic Wash</div>
+            </div>
+          </div>
 
-
-
-<div class="container car-wash padd-mar">
-  <h3 class="section-title">Types of Car Washes</h4>
-    <div class="row g-3">
-      <!-- Basic Wash -->
-      <div class="col-6 col-md-3">
-        <div class="car-wash-type-card">
-          <img src="<?= base_url() ?>public/assets/img/car_wash/basic_wash.png" class="car-wash-type-bg" alt="Basic Wash">
-          <div class="car-wash-type-overlay"></div>
-          <div class="car-wash-type-content">
-            <div class="car-wash-type-title">Basic Wash</div>
+        </div>
+        <!-- Foam Wash -->
+        <div class="col-6 col-md-3">
+          <div class="car-wash-type-card">
+            <img src="<?= base_url() ?>public/assets/img/car_wash/foam_wash.png" class="car-wash-type-bg" alt="Foam Wash">
+            <div class="car-wash-type-overlay"></div>
+            <div class="car-wash-type-content">
+              <div class="car-wash-type-title">Foam Wash</div>
+            </div>
           </div>
         </div>
-
-      </div>
-      <!-- Foam Wash -->
-      <div class="col-6 col-md-3">
-        <div class="car-wash-type-card">
-          <img src="<?= base_url() ?>public/assets/img/car_wash/foam_wash.png" class="car-wash-type-bg" alt="Foam Wash">
-          <div class="car-wash-type-overlay"></div>
-          <div class="car-wash-type-content">
-            <div class="car-wash-type-title">Foam Wash</div>
+        <!-- Interior Cleaning -->
+        <div class="col-6 col-md-3">
+          <div class="car-wash-type-card">
+            <img src="<?= base_url() ?>public/assets/img/car_wash/interior_cleaning.png" class="car-wash-type-bg" alt="Interior Cleaning">
+            <div class="car-wash-type-overlay"></div>
+            <div class="car-wash-type-content">
+              <div class="car-wash-type-title">Interior Cleaning</div>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- Interior Cleaning -->
-      <div class="col-6 col-md-3">
-        <div class="car-wash-type-card">
-          <img src="<?= base_url() ?>public/assets/img/car_wash/interior_cleaning.png" class="car-wash-type-bg" alt="Interior Cleaning">
-          <div class="car-wash-type-overlay"></div>
-          <div class="car-wash-type-content">
-            <div class="car-wash-type-title">Interior Cleaning</div>
+        <!-- Ceramic Coating -->
+        <div class="col-6 col-md-3">
+          <div class="car-wash-type-card">
+            <img src="<?= base_url() ?>public/assets/img/car_wash/ceramic_coating.png" class="car-wash-type-bg" alt="Ceramic Coating">
+            <div class="car-wash-type-overlay"></div>
+            <div class="car-wash-type-content">
+
+              <div class="car-wash-type-title">Ceramic Coating</div>
+            </div>
           </div>
         </div>
+        <!-- Add more types as needed -->
       </div>
-      <!-- Ceramic Coating -->
-      <div class="col-6 col-md-3">
-        <div class="car-wash-type-card">
-          <img src="<?= base_url() ?>public/assets/img/car_wash/ceramic_coating.png" class="car-wash-type-bg" alt="Ceramic Coating">
-          <div class="car-wash-type-overlay"></div>
-          <div class="car-wash-type-content">
-
-            <div class="car-wash-type-title">Ceramic Coating</div>
-          </div>
-        </div>
-      </div>
-      <!-- Add more types as needed -->
-    </div>
-</div>
-
-
-
-
+  </div>
+</section>
 <!-- ========================== -->
 
 <!-- =============== Tyre POlish =================== -->
-
-
-
-<div class="tyre-polish-deals-section padd-mar">
-  <div class="container">
-    <div class="section-title">Tyre Polish Types</div>
-    <div class="tyre-polish-scroll">
-      <!-- Water Based -->
-      <div class="tyre-polish-card container">
-        <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Water Based Polish">
-        <div class="tyre-polish-title">Water Based</div>
-        <div class="tyre-polish-label">Matte/Satin Finish</div>
-      </div>
-      <!-- Solvent/Silicone Based -->
-      <div class="tyre-polish-card container">
-        <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Solvent Polish">
-        <div class="tyre-polish-title">Solvent Based</div>
-        <div class="tyre-polish-label">High Gloss Shine</div>
-      </div>
-      <!-- Gel Polish -->
-      <div class="tyre-polish-card container">
-        <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Gel Polish">
-        <div class="tyre-polish-title">Gel Polish</div>
-        <div class="tyre-polish-label">Durable Protection</div>
-      </div>
-      <!-- Spray Shine -->
-      <div class="tyre-polish-card container">
-        <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Spray Shine">
-        <div class="tyre-polish-title">Spray Shine</div>
-        <div class="tyre-polish-label">Fast Application</div>
-      </div>
-      <!-- Foam Cleaner/Polish -->
-      <div class="tyre-polish-card container">
-        <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Foam Polish">
-        <div class="tyre-polish-title">Foam Polish</div>
-        <div class="tyre-polish-label">Clean + Polish</div>
+<section style="max-width: 1500px; margin: auto;">
+  <div class="tyre-polish-deals-section padd-mar">
+    <div class="container">
+      <div class="section-title">Tyre Polish Types</div>
+      <div class="tyre-polish-scroll">
+        <!-- Water Based -->
+        <div class="tyre-polish-card container">
+          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Water Based Polish">
+          <div class="tyre-polish-title">Water Based</div>
+          <div class="tyre-polish-label">Matte/Satin Finish</div>
+        </div>
+        <!-- Solvent/Silicone Based -->
+        <div class="tyre-polish-card container">
+          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Solvent Polish">
+          <div class="tyre-polish-title">Solvent Based</div>
+          <div class="tyre-polish-label">High Gloss Shine</div>
+        </div>
+        <!-- Gel Polish -->
+        <div class="tyre-polish-card container">
+          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Gel Polish">
+          <div class="tyre-polish-title">Gel Polish</div>
+          <div class="tyre-polish-label">Durable Protection</div>
+        </div>
+        <!-- Spray Shine -->
+        <div class="tyre-polish-card container">
+          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Spray Shine">
+          <div class="tyre-polish-title">Spray Shine</div>
+          <div class="tyre-polish-label">Fast Application</div>
+        </div>
+        <!-- Foam Cleaner/Polish -->
+        <div class="tyre-polish-card container">
+          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Foam Polish">
+          <div class="tyre-polish-title">Foam Polish</div>
+          <div class="tyre-polish-label">Clean + Polish</div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
-
-
+</section>
 <!-- ======================================== -->
 
-
 <!-- ================ Testimonial Section ================= -->
-
-
-
-
-
-
 <section class="google-review-section padd-mar">
-
   <div class="container">
     <div class="google-review-heading">
-      <h2 class="gr-title">Google Reviews</h2>
-      <p class="gr-rating">
-        <img src="<?= base_url() ?>public/assets/img/g-logo.png" alt="Google">
-        4.9 / 5.0 Rating
-      </p>
+      <div class="section-title">Google Reviews</div>
     </div>
 
     <div class="swiper googleReviewSwiper">
@@ -513,18 +449,6 @@
   </div>
 
 </section>
-
-
-
-
-
-
-
-
 <!-- ======================================== -->
-
-
-
-
 
 <?= $this->endSection(); ?>

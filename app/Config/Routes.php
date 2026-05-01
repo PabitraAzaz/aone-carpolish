@@ -8,8 +8,8 @@ use CodeIgniter\Router\RouteCollection;
 
 // Default Home routes
 $routes->get('/', 'Home::index');
-$routes->get('/contact_us', 'Home::contact');
-$routes->post('/contact_us', 'Home::contact');
+$routes->get('/contact-us', 'Home::contact');
+$routes->post('/contact-us', 'Home::contact');
 $routes->get('/services', 'Home::services');
 $routes->get('/single-service', 'Home::single_service');
 $routes->get('/checkout', 'Home::checkout');
@@ -18,7 +18,7 @@ $routes->get('/thankyou', 'Home::thankyou');
 $routes->get('/home/download-booking-pdf', 'Home::downloadBookingPDF');
 $routes->get('/test', 'Home::test');
 $routes->get('/blogs', 'Home::blogs');
-$routes->get('/before_after', 'Home::before_after');
+$routes->get('/before-after', 'Home::before_after');
 $routes->get('/before_after_new', 'Home::before_after_new');
 $routes->post('/before_after/generate-washed-car', 'Home::generate_washed_car');
 

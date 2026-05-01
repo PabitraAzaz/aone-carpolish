@@ -33,7 +33,7 @@
   .blogs-section {
     background: var(--background);
     padding: 50px 0 35px;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 50px auto;
     padding: 0 20px;
   }
@@ -208,7 +208,7 @@
 
 
 <section class="blogs-section">
-  <h2 class="section-title">Our Latest Car Polish Tips</h2>
+  <h2 class="section-title" style="padding-bottom: 30px;">Our Latest Car Polish Tips</h2>
   <div class="blogs-grid blog-row">
 
     <?php if (!empty($blg)) : ?>

@@ -1,80 +1,31 @@
 <?= $this->extend('web/components/assemble') ?>
 <?= $this->section('content') ?>
 
+<!-- Custom CSS -->
+<link rel="stylesheet" href="<?= base_url() ?>public/assets/css/index.css?v=124" />
 
+<!-- Custom JS -->
+<script src="<?= base_url('public/assets/js/index.js') ?>"></script>
 
-
-
-
-
-<!-- =============== PRELOADER START =============== -->
-<!-- AONE CAR POLISH PRELOADER -->
 <!-- Header -->
 <header id="siteHeader" style="display: none">
     <span>
-        <img src="<?= base_url('public/assets/img/logo.png') ?>"
-            id="headerLogo"
-            class="header-logo"
-            alt="Aone Car Polish"></span>
+        <a href="<?= base_url() ?>">
+            <img src="<?= base_url('public/assets/img/logo/logo.png') ?>"
+                id="headerLogo"
+                class="header-logo"
+                alt="Aone Car Polish">
+        </a>
+    </span>
 </header>
 
-
-<!-- PRELOADER -->
-<div class="preloader" id="preloader">
-    <button class="vs-btn preloaderCls">Cancel</button>
-
-    <!-- Brand Logo (initial splash logo) -->
-    <img
-        src="<?= base_url('public/assets/img/aone-car-polish-logo.png') ?>"
-        class="brand-logo"
-        id="brandLogo"
-        alt="Aone Car Polish" />
-
-    <!-- Top images -->
-    <img src="<?= base_url() ?>public/assets/img/pre-loader/left-top.png" class="float-img top left" />
-    <img src="<?= base_url() ?>public/assets/img/pre-loader/right-top.png" class="float-img top right" />
-
-    <!-- Bottom images -->
-    <img src="<?= base_url() ?>public/assets/img/pre-loader/left-bottom.png" class="float-img bot left" />
-    <img src="<?= base_url() ?>public/assets/img/pre-loader/right-bottom.png" class="float-img bot right" />
-
-    <!-- Car animation -->
-    <div class="loading-window">
-        <div class="car">
-            <div class="strike"></div>
-            <div class="strike strike2"></div>
-            <div class="strike strike3"></div>
-            <div class="strike strike4"></div>
-            <div class="strike strike5"></div>
-            <div class="car-detail spoiler"></div>
-            <div class="car-detail back"></div>
-            <div class="car-detail center"></div>
-            <div class="car-detail center1"></div>
-            <div class="car-detail front"></div>
-            <div class="car-detail wheel"></div>
-            <div class="car-detail wheel wheel2"></div>
-        </div>
-    </div>
-</div>
-
-<!-- =============== PRELOADER END =============== -->
-
-
-
-
-
+<!-- PRELOADER START -->
+<?= $this->include('web/components/preloader.php') ?>
+<!-- PRELOADER END  -->
 
 <main>
-
-
-
-    <!--=========== 🚗 Banner Section ==============-->
-
-
-
-
-    <!-- 🚗 Banner Section -->
-    <section id="banner-section">
+    <!-- Banner Section -->
+    <div id="banner-section">
         <div class="banner-swiper swiper">
             <div class="swiper-wrapper">
 
@@ -188,17 +139,10 @@
             <input type="text" placeholder="Search for services, products..." class="search-input" />
             <i class="fas fa-search search-icon"></i>
         </div>
-    </section>
-
-
-
-
+    </div>
     <!-- ======================================= -->
 
-
-
     <!-- =============== Sticky Logo Courasel ================  -->
-
     <div class="container  logo-courasel">
         <div class="swiper logo-carousel p-0">
             <div class="swiper-wrapper">
@@ -322,174 +266,10 @@
             </div>
         </div>
     </div>
-
-
     <!-- ====================================================================== -->
 
-
     <!-- ============= Car Services =================  -->
-
-    <style>
-        /* Section Styling */
-        .services-section {
-            padding-top: 0px !important;
-            background: var(--bacckground);
-            padding-top: 3rem;
-        }
-
-
-        .services-section a {
-            text-decoration: none;
-        }
-
-        /* Section Heading */
-        .section-heading {
-            text-align: center;
-            margin-bottom: 1.8rem;
-            position: relative;
-        }
-
-
-
-        .section-subtitle {
-            font-size: 0.95rem;
-            color: var(--section-subtitle);
-            margin: 0;
-        }
-
-        /* Service Cards */
-        .service-card {
-            position: relative;
-            border-radius: 16px;
-            color: var(--card-text);
-            height: 150px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            background-size: cover
-        }
-
-        .service-card::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.45);
-            /* dark overlay for readability */
-            z-index: 1;
-            border-radius: 16px;
-        }
-
-        .service-card * {
-            position: relative;
-            z-index: 2;
-        }
-
-        .service-card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
-        }
-
-        .service-card .icon {
-            font-size: 2rem;
-            color: white;
-            margin-bottom: 10px;
-            padding-bottom: 30px;
-        }
-
-        .service-card h5 {
-            font-size: 1.5rem;
-            color: var(--white);
-            font-weight: 600;
-            padding-top: 40px;
-        }
-
-        .service-container {
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-
-        /* Background images for each card */
-        .bg-service-1 {
-            background-image: url("<?= base_url() ?>public/assets/img/services/1.png");
-        }
-
-        .bg-service-2 {
-            background-image: url("<?= base_url() ?>public/assets/img/services/2.png");
-        }
-
-        .bg-service-3 {
-            background-image: url("<?= base_url() ?>public/assets/img/services/3.png");
-        }
-
-        .bg-service-4 {
-            background-image: url("<?= base_url() ?>public/assets/img/services/4.png");
-        }
-
-        .bg-service-5 {
-            background-image: url("<?= base_url() ?>public/assets/img/services/5.png");
-        }
-
-        .bg-service-6 {
-            background-image: url("<?= base_url() ?>public/assets/img/services/6.png");
-        }
-
-        .text-center i {
-            color: white;
-            font-size: 1.7rem;
-        }
-
-        /* Responsive grid */
-        @media (min-width: 768px) {
-
-            /* Desktop - 2 per row */
-            .col-md-6 {
-                flex: 0 0 auto;
-                width: 50%;
-            }
-        }
-
-        @media (max-width: 767px) {
-
-            /* Mobile - 3 per row */
-            .col-4 {
-                flex: 0 0 auto;
-                width: 33.3333%;
-            }
-
-            .section-title {
-                font-size: 1.4rem;
-            }
-
-            .service-card .icon {
-                font-size: 1.5rem;
-                padding-bottom: 25px;
-            }
-
-            .service-card h5 {
-                font-size: 0.8rem;
-                padding-top: 20px;
-            }
-
-            .service-card {
-                height: 100px;
-            }
-
-            .book-now-btn {
-                padding: 12px 24px !important;
-                font-size: 0.95rem !important;
-            }
-        }
-    </style>
-
-
-    <section class="services-section ">
+    <section class="services-section" style="margin-top: 0;">
         <div class="container service-container">
 
             <!-- Section Heading -->
@@ -565,17 +345,17 @@
                 <div class="col-12 text-center mt-4">
                     <a href="<?= base_url('single-service') ?>" style="text-decoration: none;">
                         <button class="book-now-btn" style="
-              background: linear-gradient(135deg, #ff3d2f, #ff5644);
-              color: white;
-              border: none;
-              padding: 14px 40px;
-              font-size: 1.1rem;
-              font-weight: 700;
-              border-radius: 10px;
-              cursor: pointer;
-              box-shadow: 0 6px 20px rgba(255, 61, 47, 0.4);
-              transition: all 0.3s ease;
-            " onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 10px 28px rgba(255, 61, 47, 0.5)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 6px 20px rgba(255, 61, 47, 0.4)';">
+                            background: linear-gradient(135deg, #ff3d2f, #ff5644);
+                            color: white;
+                            border: none;
+                            padding: 14px 40px;
+                            font-size: 1.1rem;
+                            font-weight: 700;
+                            border-radius: 10px;
+                            cursor: pointer;
+                            box-shadow: 0 6px 20px rgba(255, 61, 47, 0.4);
+                            transition: all 0.3s ease;
+                            " onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 10px 28px rgba(255, 61, 47, 0.5)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 6px 20px rgba(255, 61, 47, 0.4)';">
                             Book Now →
                         </button>
                     </a>
@@ -584,12 +364,10 @@
             </div>
         </div>
     </section>
-
     <!-- ==============================  -->
 
     <!-- ========= About Section ============= -->
-
-    <section class="about-section padd-mar">
+    <section class="about-section">
         <div class="about-container">
 
             <div class="about-text">
@@ -601,8 +379,8 @@
                     have the training and several years of experience in this field.
 
                     <!-- <p class="about-short"> We have turned ordinary-looking Maruti Suzuki, Hyundai, Tata, Mahindra, Mercedes, BMW, Audi,
-          Toyota and others into shiny and sparkling vehicles.</p>
-        </p> -->
+                            Toyota and others into shiny and sparkling vehicles.</p>
+                        </p> -->
 
                     <!-- Hidden extra content -->
                 <div class="about-extra">
@@ -644,320 +422,276 @@
 
         </div>
     </section>
-
-
-
-
-
-
     <!-- ====================================== -->
 
-
     <!-- ========== Top services Near You ============== -->
-
-
-    <div class="container services-nearu padd-mar">
-        <h3 class="section-title">Top Car Polish Services Near You</h3>
-        <div class="swiper polish-swiper">
-            <div class="swiper-wrapper">
-                <!-- Card 1 -->
-                <div class="swiper-slide container">
-                    <div class="car-service-card">
-                        <div class="service-image-wrapper">
-                            <img src="<?= base_url() ?>public/assets/img/top-car/2.png" class="card-service-img" alt="Premium Polish">
-                            <div class="offer-badge">20% OFF</div>
-                        </div>
-                        <div class="car-service-card-body">
-                            <div class="car-service-title">Premium Car Polish</div>
-                            <div class="small text-secondary mb-1">
-                                <span class="text-success">&#9733; 4.8</span> • 30-40 mins
+    <section>
+        <div class="container services-nearu">
+            <h3 class="section-title">Top Car Polish Services Near You</h3>
+            <div class="swiper polish-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Card 1 -->
+                    <div class="swiper-slide container">
+                        <div class="car-service-card">
+                            <div class="service-image-wrapper">
+                                <img src="<?= base_url() ?>public/assets/img/top-car/2.png" class="card-service-img" alt="Premium Polish">
+                                <div class="offer-badge">20% OFF</div>
                             </div>
-                            <div class="small">From ₹1299</div>
+                            <div class="car-service-card-body">
+                                <div class="car-service-title">Premium Car Polish</div>
+                                <div class="small text-secondary mb-1">
+                                    <span class="text-success">&#9733; 4.8</span> • 30-40 mins
+                                </div>
+                                <div class="small">From ₹1299</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- Card 2 -->
-                <div class="swiper-slide container">
-                    <div class="car-service-card">
-                        <div class="service-image-wrapper">
-                            <img src="<?= base_url() ?>public/assets/img/top-car/3.png" class="card-service-img" alt="Express Detailing">
-                            <div class="offer-badge">Free Pickup</div>
-                        </div>
-                        <div class="car-service-card-body">
-                            <div class="car-service-title">Express Detailing</div>
-                            <div class="small text-secondary mb-1">
-                                <span class="text-success">&#9733; 4.7</span> • 20-30 mins
+                    <!-- Card 2 -->
+                    <div class="swiper-slide container">
+                        <div class="car-service-card">
+                            <div class="service-image-wrapper">
+                                <img src="<?= base_url() ?>public/assets/img/top-car/3.png" class="card-service-img" alt="Express Detailing">
+                                <div class="offer-badge">Free Pickup</div>
                             </div>
-                            <div class="small">From ₹699</div>
+                            <div class="car-service-card-body">
+                                <div class="car-service-title">Express Detailing</div>
+                                <div class="small text-secondary mb-1">
+                                    <span class="text-success">&#9733; 4.7</span> • 20-30 mins
+                                </div>
+                                <div class="small">From ₹699</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- Card 3 -->
-                <div class="swiper-slide container">
-                    <div class="car-service-card">
-                        <div class="service-image-wrapper">
-                            <img src="<?= base_url() ?>public/assets/img/top-car/4.png" class="card-service-img" alt="Ceramic Shine">
-                            <div class="offer-badge">Best Seller</div>
-                        </div>
-                        <div class="car-service-card-body">
-                            <div class="car-service-title">Ceramic Shine</div>
-                            <div class="small text-secondary mb-1">
-                                <span class="text-success">&#9733; 4.9</span> • 2 hrs
+                    <!-- Card 3 -->
+                    <div class="swiper-slide container">
+                        <div class="car-service-card">
+                            <div class="service-image-wrapper">
+                                <img src="<?= base_url() ?>public/assets/img/top-car/4.png" class="card-service-img" alt="Ceramic Shine">
+                                <div class="offer-badge">Best Seller</div>
                             </div>
-                            <div class="small">From ₹2499</div>
+                            <div class="car-service-card-body">
+                                <div class="car-service-title">Ceramic Shine</div>
+                                <div class="small text-secondary mb-1">
+                                    <span class="text-success">&#9733; 4.9</span> • 2 hrs
+                                </div>
+                                <div class="small">From ₹2499</div>
+                            </div>
                         </div>
                     </div>
+                    <!-- Add more cards as needed -->
                 </div>
-                <!-- Add more cards as needed -->
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-pagination"></div>
         </div>
-    </div>
-
-
-
-
+    </section>
     <!-- ======================= -->
 
     <!-- ================= Banner Sliders with Offers ===========================  -->
+    <section>
+        <div class="container banner-slider">
+            <div class="swiper banner-carousel">
+                <div class="swiper-wrapper">
 
-    <div class="container banner-slider padd-mar">
-        <div class="swiper banner-carousel">
-            <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <img class="slide-bg" src="<?= base_url() ?>public/assets/img/1.png" alt="Polish Offer">
+                        <div class="slide-overlay"></div>
 
-                <!-- Slide 1 -->
-                <div class="swiper-slide">
-                    <img class="slide-bg" src="<?= base_url() ?>public/assets/img/1.png" alt="Polish Offer">
-                    <div class="slide-overlay"></div>
-
-                    <div class="slide-text">
-                        <div class="slide-headline">Full Body Wax Polish</div>
-                        <div class="slide-subtext">
-                            Aone Car Polish offers top-quality car polish service in Newtown Kolkata at attractive prices.
-                            Our service can make your dull-looking car shine like never before.
+                        <div class="slide-text">
+                            <div class="slide-headline">Full Body Wax Polish</div>
+                            <div class="slide-subtext">
+                                Aone Car Polish offers top-quality car polish service in Newtown Kolkata at attractive prices.
+                                Our service can make your dull-looking car shine like never before.
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Slide 2 -->
-                <div class="swiper-slide">
-                    <img class="slide-bg" src="<?= base_url() ?>public/assets/img/2.png" alt="Express Service">
-                    <div class="slide-overlay"></div>
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <img class="slide-bg" src="<?= base_url() ?>public/assets/img/2.png" alt="Express Service">
+                        <div class="slide-overlay"></div>
 
-                    <div class="slide-text">
-                        <div class="slide-headline">Dashboard & Door Wax Polish</div>
-                        <div class="slide-subtext">
-                            Aone Car Polish provides a specific dashboard and door polish service for your car.
-                            This helps maintain one of the most neglected parts of your vehicle, keeping it clean and shiny.
+                        <div class="slide-text">
+                            <div class="slide-headline">Dashboard & Door Wax Polish</div>
+                            <div class="slide-subtext">
+                                Aone Car Polish provides a specific dashboard and door polish service for your car.
+                                This helps maintain one of the most neglected parts of your vehicle, keeping it clean and shiny.
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Slide 3 -->
-                <div class="swiper-slide">
-                    <img class="slide-bg" src="<?= base_url() ?>public/assets/img/3.png" alt="Detailing Package">
-                    <div class="slide-overlay"></div>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <img class="slide-bg" src="<?= base_url() ?>public/assets/img/3.png" alt="Detailing Package">
+                        <div class="slide-overlay"></div>
 
-                    <div class="slide-text">
-                        <div class="slide-headline">Full Interior Vacuum Cleaning</div>
-                        <div class="slide-subtext">
-                            Get interior vacuum cleaning service and save yourself from the time and hassle of cleaning
-                            the nooks and corners of your car’s interior. We ensure a spotless and refreshed cabin experience.
+                        <div class="slide-text">
+                            <div class="slide-headline">Full Interior Vacuum Cleaning</div>
+                            <div class="slide-subtext">
+                                Get interior vacuum cleaning service and save yourself from the time and hassle of cleaning
+                                the nooks and corners of your car’s interior. We ensure a spotless and refreshed cabin experience.
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Slide 4 -->
-                <div class="swiper-slide">
-                    <img class="slide-bg" src="<?= base_url() ?>public/assets/img/4.png" alt="Polish Offer">
-                    <div class="slide-overlay"></div>
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <img class="slide-bg" src="<?= base_url() ?>public/assets/img/4.png" alt="Polish Offer">
+                        <div class="slide-overlay"></div>
 
-                    <div class="slide-text">
-                        <div class="slide-headline">All Seat Foam Wash</div>
-                        <div class="slide-subtext">
-                            Aone Car Polish offers seat foam wash and polish service that cleans your dirty seat covers
-                            and restores shine.
+                        <div class="slide-text">
+                            <div class="slide-headline">All Seat Foam Wash</div>
+                            <div class="slide-subtext">
+                                Aone Car Polish offers seat foam wash and polish service that cleans your dirty seat covers
+                                and restores shine.
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Slide 5 -->
-                <div class="swiper-slide">
-                    <img class="slide-bg" src="<?= base_url() ?>public/assets/img/5.png" alt="Express Service">
-                    <div class="slide-overlay"></div>
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide">
+                        <img class="slide-bg" src="<?= base_url() ?>public/assets/img/5.png" alt="Express Service">
+                        <div class="slide-overlay"></div>
 
-                    <div class="slide-text">
-                        <div class="slide-headline">NICKEL Chrome Wax Polish</div>
-                        <div class="slide-subtext">
-                            Bring back the lost shine to your nickel chrome with Aone Car Polish’s top-class polishing service.
+                        <div class="slide-text">
+                            <div class="slide-headline">NICKEL Chrome Wax Polish</div>
+                            <div class="slide-subtext">
+                                Bring back the lost shine to your nickel chrome with Aone Car Polish’s top-class polishing service.
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Slide 6 -->
-                <div class="swiper-slide">
-                    <img class="slide-bg" src="<?= base_url() ?>public/assets/img/6.png" alt="Detailing Package">
-                    <div class="slide-overlay"></div>
+                    <!-- Slide 6 -->
+                    <div class="swiper-slide">
+                        <img class="slide-bg" src="<?= base_url() ?>public/assets/img/6.png" alt="Detailing Package">
+                        <div class="slide-overlay"></div>
 
-                    <div class="slide-text">
-                        <div class="slide-headline">Headlamp & Scratch Removing</div>
-                        <div class="slide-subtext">
-                            Avoid accidents with expert yellow headlamp cleaning and polishing service at an affordable price.
+                        <div class="slide-text">
+                            <div class="slide-headline">Headlamp & Scratch Removing</div>
+                            <div class="slide-subtext">
+                                Avoid accidents with expert yellow headlamp cleaning and polishing service at an affordable price.
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
+                <!-- Pagination -->
+                <div class="swiper-pagination" style="z-index: 3; bottom:-5px;"></div>
             </div>
-
-            <!-- Pagination -->
-            <div class="swiper-pagination" style="z-index: 3; bottom:-5px;"></div>
         </div>
-    </div>
-
-
-
-
-
-
-
-
+    </section>
     <!-- ============================================  -->
 
-
     <!-- ============== Types of Car Wash============================= -->
+    <section>
+        <div class="container car-wash">
+            <h4 class="section-title">Service Highlights</h4>
+            <div class="row g-3">
+                <!-- Basic Wash -->
+                <div class="col-6 col-md-3">
+                    <div class="car-wash-type-card">
+                        <img src="<?= base_url() ?>public/assets/img/car_wash/2.png" class="car-wash-type-bg" alt="Basic Wash">
+                        <div class="car-wash-type-overlay"></div>
+                        <div class="car-wash-type-content">
+                            <div class="car-wash-type-title">Super Clean</div>
+                        </div>
+                    </div>
 
-
-
-    <div class="container car-wash padd-mar">
-        <h4 class="section-title">Service Highlights</h4>
-        <div class="row g-3">
-            <!-- Basic Wash -->
-            <div class="col-6 col-md-3">
-                <div class="car-wash-type-card">
-                    <img src="<?= base_url() ?>public/assets/img/car_wash/2.png" class="car-wash-type-bg" alt="Basic Wash">
-                    <div class="car-wash-type-overlay"></div>
-                    <div class="car-wash-type-content">
-                        <div class="car-wash-type-title">Super Clean</div>
+                </div>
+                <!-- Foam Wash -->
+                <div class="col-6 col-md-3">
+                    <div class="car-wash-type-card">
+                        <img src="<?= base_url() ?>public/assets/img/car_wash/3.png" class="car-wash-type-bg" alt="Foam Wash">
+                        <div class="car-wash-type-overlay"></div>
+                        <div class="car-wash-type-content">
+                            <div class="car-wash-type-title">Foam Wash</div>
+                        </div>
                     </div>
                 </div>
+                <!-- Interior Cleaning -->
+                <div class="col-6 col-md-3">
+                    <div class="car-wash-type-card">
+                        <img src="<?= base_url() ?>public/assets/img/car_wash/4.png" class="car-wash-type-bg" alt="Interior Cleaning">
+                        <div class="car-wash-type-overlay"></div>
+                        <div class="car-wash-type-content">
+                            <div class="car-wash-type-title">Vacuum Cleaning</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ceramic Coating -->
+                <div class="col-6 col-md-3">
+                    <div class="car-wash-type-card">
+                        <img src="<?= base_url() ?>public/assets/img/car_wash/5.png" class="car-wash-type-bg" alt="Ceramic Coating">
+                        <div class="car-wash-type-overlay"></div>
+                        <div class="car-wash-type-content">
 
-            </div>
-            <!-- Foam Wash -->
-            <div class="col-6 col-md-3">
-                <div class="car-wash-type-card">
-                    <img src="<?= base_url() ?>public/assets/img/car_wash/3.png" class="car-wash-type-bg" alt="Foam Wash">
-                    <div class="car-wash-type-overlay"></div>
-                    <div class="car-wash-type-content">
-                        <div class="car-wash-type-title">Foam Wash</div>
+                            <div class="car-wash-type-title">Wax Coating</div>
+                        </div>
                     </div>
                 </div>
+                <!-- Add more types as needed -->
             </div>
-            <!-- Interior Cleaning -->
-            <div class="col-6 col-md-3">
-                <div class="car-wash-type-card">
-                    <img src="<?= base_url() ?>public/assets/img/car_wash/4.png" class="car-wash-type-bg" alt="Interior Cleaning">
-                    <div class="car-wash-type-overlay"></div>
-                    <div class="car-wash-type-content">
-                        <div class="car-wash-type-title">Vacuum Cleaning</div>
-                    </div>
-                </div>
-            </div>
-            <!-- Ceramic Coating -->
-            <div class="col-6 col-md-3">
-                <div class="car-wash-type-card">
-                    <img src="<?= base_url() ?>public/assets/img/car_wash/5.png" class="car-wash-type-bg" alt="Ceramic Coating">
-                    <div class="car-wash-type-overlay"></div>
-                    <div class="car-wash-type-content">
-
-                        <div class="car-wash-type-title">Wax Coating</div>
-                    </div>
-                </div>
-            </div>
-            <!-- Add more types as needed -->
         </div>
-    </div>
-
-
-
-
+    </section>
     <!-- ========================== -->
 
-
     <!--=======================================  -->
-
-
-    <div class="responsive-offer-banner mt-2 mb-2">
-        <img src="<?= base_url() ?>public/assets/img/newimg/book_now.png" alt="Offer Banner">
-        <div class="offer-banner-content">
-            <span id="animated-text" class="offer-banner-text"></span>
-            <a href="#book" class="offer-banner-btn">Book Now</a>
+    <section>
+        <div class="responsive-offer-banner mt-2 mb-2">
+            <img src="<?= base_url() ?>public/assets/img/newimg/book_now.png" alt="Offer Banner">
+            <div class="offer-banner-content">
+                <span id="animated-text" class="offer-banner-text"></span>
+                <a href="#book" class="offer-banner-btn">Book Now</a>
+            </div>
         </div>
-    </div>
-
-
-
-
-
-
-
-
-
+    </section>
     <!-- ======================================== -->
 
-
     <!-- =============== Tyre POlish =================== -->
-
-
-
-    <div class="tyre-polish-deals-section padd-mar">
-        <div class="container">
-            <div class="section-title">Step by step tyre polishing</div>
-            <div class="tyre-polish-scroll">
-                <!-- Water Based -->
-                <div class="tyre-polish-card container">
-                    <img src="<?= base_url() ?>public/assets/img/tyre/water.png" class="tyre-polish-img" alt="Water Based Polish">
-                    <div class="tyre-polish-title">Water Based</div>
-                    <div class="tyre-polish-label">Matte/Satin Finish</div>
-                </div>
-                <!-- Solvent/Silicone Based -->
-                <div class="tyre-polish-card container">
-                    <img src="<?= base_url() ?>public/assets/img/tyre/Solvent.png" class="tyre-polish-img" alt="Solvent Polish">
-                    <div class="tyre-polish-title">Solvent Based</div>
-                    <div class="tyre-polish-label">High Gloss Shine</div>
-                </div>
-                <!-- Gel Polish -->
-                <div class="tyre-polish-card container">
-                    <img src="<?= base_url() ?>public/assets/img/tyre/Gel.png" class="tyre-polish-img" alt="Gel Polish">
-                    <div class="tyre-polish-title">Gel Polish</div>
-                    <div class="tyre-polish-label">Durable Protection</div>
-                </div>
-                <!-- Spray Shine -->
-                <div class="tyre-polish-card container">
-                    <img src="<?= base_url() ?>public/assets/img/tyre/Spray.png" class="tyre-polish-img" alt="Spray Shine">
-                    <div class="tyre-polish-title">Spray Shine</div>
-                    <div class="tyre-polish-label">Fast Application</div>
-                </div>
-                <!-- Foam Cleaner/Polish -->
-                <div class="tyre-polish-card container">
-                    <img src="<?= base_url() ?>public/assets/img/tyre/Foam.png" class="tyre-polish-img" alt="Foam Polish">
-                    <div class="tyre-polish-title">Foam Polish</div>
-                    <div class="tyre-polish-label">Clean + Polish</div>
+    <section>
+        <div class="tyre-polish-deals-section">
+            <div class="container">
+                <div class="section-title">Step by step tyre polishing</div>
+                <div class="tyre-polish-scroll">
+                    <!-- Water Based -->
+                    <div class="tyre-polish-card container">
+                        <img src="<?= base_url() ?>public/assets/img/tyre/water.png" class="tyre-polish-img" alt="Water Based Polish">
+                        <div class="tyre-polish-title">Water Based</div>
+                        <div class="tyre-polish-label">Matte/Satin Finish</div>
+                    </div>
+                    <!-- Solvent/Silicone Based -->
+                    <div class="tyre-polish-card container">
+                        <img src="<?= base_url() ?>public/assets/img/tyre/Solvent.png" class="tyre-polish-img" alt="Solvent Polish">
+                        <div class="tyre-polish-title">Solvent Based</div>
+                        <div class="tyre-polish-label">High Gloss Shine</div>
+                    </div>
+                    <!-- Gel Polish -->
+                    <div class="tyre-polish-card container">
+                        <img src="<?= base_url() ?>public/assets/img/tyre/Gel.png" class="tyre-polish-img" alt="Gel Polish">
+                        <div class="tyre-polish-title">Gel Polish</div>
+                        <div class="tyre-polish-label">Durable Protection</div>
+                    </div>
+                    <!-- Spray Shine -->
+                    <div class="tyre-polish-card container">
+                        <img src="<?= base_url() ?>public/assets/img/tyre/Spray.png" class="tyre-polish-img" alt="Spray Shine">
+                        <div class="tyre-polish-title">Spray Shine</div>
+                        <div class="tyre-polish-label">Fast Application</div>
+                    </div>
+                    <!-- Foam Cleaner/Polish -->
+                    <div class="tyre-polish-card container">
+                        <img src="<?= base_url() ?>public/assets/img/tyre/Foam.png" class="tyre-polish-img" alt="Foam Polish">
+                        <div class="tyre-polish-title">Foam Polish</div>
+                        <div class="tyre-polish-label">Clean + Polish</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-
-
+    </section>
     <!-- ======================================== -->
 
-
-
-
-
     <!-- ================ Why Chooses Us ========================== -->
-
-    <section class="features-section padd-mar">
+    <section class="features-section">
         <div class="container">
             <!-- Section Heading -->
             <div class="text-center ">
@@ -997,16 +731,10 @@
             </div>
         </div>
     </section>
-
-
-
     <!-- ============================================ -->
 
-
     <!-- ============== Services FAQ ================= -->
-
-
-    <section class="faq-section door-services padd-mar">
+    <section class="faq-section door-services">
         <div class="overlay"></div>
         <div class="container position-relative">
             <div class="text-center mb-5">
@@ -1163,18 +891,10 @@
             </div>
         </div>
     </section>
-
-
     <!-- ======================================================= -->
 
-
-
-
-
-
     <!-- =================== Choose Your Package ==========================  -->
-
-    <section class="packages-section padd-mar">
+    <section class="packages-section">
         <div class="container text-center">
             <h2 class="section-title">Choose Your Package</h2>
 
@@ -1203,7 +923,6 @@
         </div>
     </section>
 
-    
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const brandDropdown = document.getElementById('brand_id');
@@ -1262,295 +981,52 @@
             });
         });
     </script>
-
     <!-- =============================================  -->
 
-
-
     <!-- ================== Youtube Shorts Area  ======================= -->
-
-
-
-    <div class="container padd-mar shorts-section">
-        <h3 class="section-title">Our Car Polish Shorts</h3>
-        <div class="swiper portrait-slider">
-            <div class="swiper-wrapper">
-                <!-- Slide 1 -->
-                <div class="swiper-slide">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/b6jvx8l7cJo?si=P24Fc67lMJz8HhXg" allowfullscreen></iframe>
+    <section>
+        <div class="shorts-section">
+            <h3 class="section-title">Our Car Polish Shorts</h3>
+            <div class="swiper portrait-slider">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/b6jvx8l7cJo?si=P24Fc67lMJz8HhXg" allowfullscreen></iframe>
+                        </div>
                     </div>
-                </div>
-                <!-- Slide 2 -->
-                <div class="swiper-slide">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/Wak9lxoUzCU?si=RiyeEUdyN7I7Q-dc" allowfullscreen></iframe>
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/Wak9lxoUzCU?si=RiyeEUdyN7I7Q-dc" allowfullscreen></iframe>
+                        </div>
                     </div>
-                </div>
-                <!-- Slide 3 -->
-                <div class="swiper-slide">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/E9597CR7VoA?si=_HHgWiPKYCI1rYbC" allowfullscreen></iframe>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/E9597CR7VoA?si=_HHgWiPKYCI1rYbC" allowfullscreen></iframe>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Slide 4 -->
-                <div class="swiper-slide">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/E9597CR7VoA?si=_HHgWiPKYCI1rYbC" allowfullscreen></iframe>
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/E9597CR7VoA?si=_HHgWiPKYCI1rYbC" allowfullscreen></iframe>
+                        </div>
                     </div>
+                    <!-- Add as many slides as needed -->
                 </div>
-                <!-- Add as many slides as needed -->
+                <!-- Navigation Arrows (Desktop Only) -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+                <div class="swiper-pagination"></div>
             </div>
-            <!-- Navigation Arrows (Desktop Only) -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-
-            <div class="swiper-pagination"></div>
         </div>
-    </div>
-
-
-
-
-
+    </section>
     <!-- ==================================================== -->
 
-
-
-
-
-
-
-
-
-    <!-- ===================================== -->
-
-
     <!-- ===================== Blogs Section =========================== -->
-
-
-    <style>
-        .blog-tags-group {
-            margin-top: 6px;
-            margin-bottom: 7px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-        }
-
-        .blog-tags {
-            background: #ff3d2f;
-            color: #fff;
-            font-size: .81rem;
-            font-weight: 500;
-            border-radius: 7px;
-            padding: 3px 8px;
-            letter-spacing: .04em;
-            display: inline-block;
-        }
-
-        .blogs-section {
-            background: var(--bacckground);
-            padding: 50px 0 35px;
-        }
-
-        /* Responsive breakpoints */
-        @media (max-width: 992px) {
-            .blogs-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        .blogs-section {
-            max-width: 1200px;
-            margin: 50px auto;
-            padding: 0 20px;
-        }
-
-        .blogs-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-
-        .blog-date {
-            color: #7e7009;
-            font-size: 0.78rem;
-            font-weight: 600;
-            margin-top: 3px;
-            margin-bottom: 0;
-            letter-spacing: .5px;
-        }
-
-        .blogs-title {
-            font-size: 2rem;
-            font-weight: 800;
-            color: #222;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-
-        .blog-row {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 30px 24px;
-        }
-
-        .blog-card {
-            background: #fff;
-            border-radius: 14px;
-            box-shadow: 0 4px 16px rgba(81, 97, 127, 0.10);
-            width: 100%;
-            max-width: 350px;
-            padding: 2px 2px 4px 2px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            transition: box-shadow 0.2s, transform 0.18s;
-        }
-
-        .blog-card:hover {
-            box-shadow: 0 10px 24px rgba(81, 97, 127, 0.15);
-            transform: translateY(-6px);
-        }
-
-        .blog-img {
-            width: 100%;
-            height: 220px;
-            object-fit: cover;
-            border-radius: 9px;
-            margin-bottom: 14px;
-        }
-
-        .blog-title {
-            font-size: 1.18rem;
-            font-weight: 700;
-            color: #222;
-            margin-bottom: 6px;
-            padding-left: 2px;
-        }
-
-        .blog-desc {
-            color: #64686d;
-            font-size: 0.91rem;
-            margin-bottom: 0;
-            padding: 2px;
-        }
-
-        .blog-card {
-            flex: 1 1 30%;
-            max-width: 31%;
-        }
-
-        @media (max-width: 800px) {
-            .blog-card {
-                max-width: 32%;
-            }
-        }
-
-        /* Extra small screens */
-        @media (max-width: 576px) {
-            .explore-bttn {
-                width: 235px !important;
-                font-weight: 500 !important;
-                font-size: .95rem !important;
-                padding: 8px 8px !important;
-            }
-
-            .blog-tag {
-                font-size: .51rem;
-            }
-
-            .blog-title {
-                font-size: .8rem;
-                margin-bottom: 2px;
-            }
-
-            .blog-date {
-                font-size: .6rem;
-            }
-
-            .blog-desc {
-                font-size: .6rem;
-            }
-
-            .blog-card {
-                max-width: 49%;
-                padding: 5px 5px 5px 5px;
-            }
-
-            .blog-img {
-                height: 98px;
-            }
-
-            .blog-row {
-                gap: 15px 8px;
-            }
-
-            .blog-card.hide-mobile {
-                display: none !important;
-            }
-        }
-
-        /* Very small screens */
-        @media (max-width: 400px) {
-            .blog-card {
-                max-width: 99vw;
-            }
-
-            .blog-card p {
-                margin-bottom: .5rem;
-            }
-        }
-
-        .explore-bttn {
-            display: block;
-            width: 262px;
-            margin: 30px auto 0;
-            background: #222;
-            color: #fff7cc;
-            font-weight: 700;
-            font-size: 1.15rem;
-            padding: 13px 44px;
-            border-radius: 8px;
-            border: none;
-            transition: background 0.2s, color 0.2s;
-            text-align: center;
-            text-decoration: none;
-            letter-spacing: .5px;
-        }
-
-        .explore-bttn:hover {
-            background: #ffce25;
-            color: #222;
-        }
-
-        .blog-content {
-            padding-left: 8px;
-        }
-
-        /* --------------------------------------------- */
-        /* SHOW ONLY FIRST 3 BLOGS ON DESKTOP */
-        /* --------------------------------------------- */
-        .blog-card:nth-child(n+4) {
-            display: none;
-        }
-
-        /* --------------------------------------------- */
-        /* SHOW ONLY FIRST 2 BLOGS ON MOBILE */
-        /* --------------------------------------------- */
-        @media (max-width: 576px) {
-            .blog-card:nth-child(n+3) {
-                display: none !important;
-            }
-        }
-    </style>
-
-
-
-
     <section class="blogs-section">
         <h2 class="section-title">Our Latest Car Polish Tips</h2>
         <div class="blogs-grid blog-row">
@@ -1592,18 +1068,10 @@
         </div>
         <a href="<?= base_url('/blogs') ?>" class="explore-bttn">Explore Our Blogs</a>
     </section>
-
-
-
-
-
-
-
     <!-- ===================================================================== -->
 
     <!-- =================== FAQ Section  ========================= -->
-
-    <section class="faq-section padd-mar">
+    <section class="faq-section">
         <div class="overlay"></div>
         <div class="container position-relative">
             <div class="text-center mb-5">
@@ -1682,345 +1150,13 @@
             </div>
         </div>
     </section>
-
-
-
-
-
-    <!-- ================= Bottom Text======================== -->
-
-
-
-
-
-
     <!-- =================================== -->
-
-
-
 
     <!-- ========================= -->
     <!-- ⭐ MOBILE OFFER POPUP ⭐ -->
     <!-- ========================= -->
-    <div class="car-popup" id="carPopup">
-        <div class="car-sheet">
-            <span class="car-close" onclick="closeCarPopup()">×</span>
-
-            <div class="brand">
-                <img src="<?= base_url() ?>public/assets/img/logo.png" alt="Car Polish">
-                <h4>A-ONE CAR POLISH<br><span></span></h4>
-            </div>
-
-            <h2 class="headline">Get Showroom Shine<br>At Home ✨</h2>
-
-            <div class="badge">⭐ Flat 20% OFF on First Order</div>
-
-            <div class="form-card">
-                <h3>Unlock<br><strong>Exclusive Car Care Deals</strong></h3>
-
-                <div class="phone-field">
-                    <span>🇮🇳 +91</span>
-                    <input
-                        type="tel"
-                        id="phone"
-                        inputmode="numeric"
-                        pattern="[6-9][0-9]{9}"
-                        maxlength="10"
-                        placeholder="Enter Mobile Number"
-                        required>
-
-                </div>
-
-                <button class="cta-btn" onclick="submitPopup()">Get My Discount</button>
-
-                <p class="terms">
-                    🔒 No spam • 🚗 Trusted by 5,000+ car owners
-                </p>
-
-                <p id="successMsg">✅ Offer unlocked! Redirecting…</p>
-            </div>
-        </div>
-    </div>
-
-    <style>
-        .car-popup {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, .45);
-            backdrop-filter: blur(6px);
-            -webkit-backdrop-filter: blur(6px);
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            z-index: 9999;
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity .35s ease;
-        }
-
-        .car-popup.show {
-            opacity: 1;
-            pointer-events: auto;
-        }
-
-        .car-sheet {
-            width: 100%;
-            max-width: 602px;
-            height: 85vh;
-            background: linear-gradient(180deg, #120f0f, #ff4949);
-            border-radius: 22px 22px 0 0;
-            padding: 26px 18px;
-            text-align: center;
-            color: #fff;
-            animation: sheetUp .55s cubic-bezier(.22, 1, .36, 1);
-        }
-
-        @keyframes sheetUp {
-            from {
-                transform: translateY(110%) scale(.96);
-                opacity: 0;
-            }
-
-            to {
-                transform: translateY(0) scale(1);
-                opacity: 1;
-            }
-        }
-
-        .car-close {
-            position: absolute;
-            top: 14px;
-            right: 16px;
-            width: 34px;
-            height: 34px;
-            border-radius: 50%;
-            background: #f5c86a;
-            color: #000;
-            font-size: 22px;
-            line-height: 34px;
-            cursor: pointer;
-        }
-
-        .brand img {
-            width: 58px;
-            margin-bottom: 6px;
-        }
-
-        .brand h4 {
-            margin: 0;
-            font-weight: 800;
-            letter-spacing: 1px;
-        }
-
-        .brand span {
-            font-size: 12px;
-            color: #f5c86a;
-        }
-
-        .headline {
-            margin: 16px 0;
-            font-size: 1.5rem;
-        }
-
-        .badge {
-            background: linear-gradient(90deg, #f5c86a, #ffd36d);
-            color: #000;
-            padding: 8px 16px;
-            border-radius: 20px;
-            display: inline-block;
-            margin-bottom: 18px;
-            font-weight: 700;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .badge::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            left: -100%;
-            background: linear-gradient(120deg,
-                    transparent,
-                    rgba(255, 255, 255, .5),
-                    transparent);
-            animation: shimmer 2.8s infinite;
-        }
-
-        @keyframes shimmer {
-            100% {
-                left: 100%;
-            }
-        }
-
-        .form-card {
-            background: #fff;
-            border-radius: 14px;
-            padding: 20px 14px;
-            color: #111;
-        }
-
-        .phone-field {
-            display: flex;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            overflow: hidden;
-            margin-bottom: 14px;
-            transition: box-shadow .2s ease, border-color .2s ease;
-        }
-
-        .phone-field:focus-within {
-            border-color: #f5c86a;
-            box-shadow: 0 0 0 2px rgba(245, 200, 106, .3);
-        }
-
-        .phone-field span {
-            background: #f3f3f3;
-            padding: 10px;
-        }
-
-        .phone-field input {
-            border: none;
-            flex: 1;
-            padding: 10px;
-            outline: none;
-        }
-
-        .cta-btn {
-            width: 100%;
-            background: linear-gradient(90deg, #111, #333);
-            color: #f5c86a;
-            border: none;
-            padding: 13px;
-            font-size: 16px;
-            border-radius: 8px;
-            font-weight: 700;
-            cursor: pointer;
-            transition: transform .12s ease, box-shadow .12s ease;
-        }
-
-        .cta-btn:active {
-            transform: scale(.96);
-        }
-
-        .terms {
-            font-size: 12px;
-            margin-top: 10px;
-            color: #000000ff;
-        }
-
-        #successMsg {
-            display: none;
-            margin-top: 10px;
-            color: green;
-            font-weight: 600;
-            animation: popFade .45s ease forwards;
-        }
-
-        @keyframes popFade {
-            from {
-                transform: translateY(8px);
-                opacity: 0;
-            }
-
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
-
-        @media (min-width: 600px) {
-            .car-popup {
-                display: none;
-            }
-        }
-    </style>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const popup = document.getElementById("carPopup");
-            const phoneInput = document.getElementById("phone");
-            const successMsg = document.getElementById("successMsg");
-            const preloader = document.getElementById("preloader");
-
-            // Check if preloader was already shown in this session
-            const preloaderShownInSession = sessionStorage.getItem("preloaderShown");
-            if (preloaderShownInSession === "true") {
-                preloader.classList.add("hidden");
-                preloader.style.display = "none";
-                return;
-            }
-
-            if (!preloader) return;
-
-            let popupShown = false;
-
-            // 👀 Watch preloader disappearance
-            const observer = new MutationObserver(() => {
-                const isHidden =
-                    preloader.style.display === "none" ||
-                    preloader.classList.contains("hidden") ||
-                    !document.body.contains(preloader);
-
-                if (isHidden && !popupShown) {
-                    popupShown = true;
-
-                    // Mark preloader as shown in session
-                    sessionStorage.setItem("preloaderShown", "true");
-
-                    // ⏱️ SHOW POPUP AFTER 2 SECONDS
-                    setTimeout(() => {
-                        popup.classList.add("show");
-                    }, 2000);
-
-                    observer.disconnect();
-                }
-            });
-
-            observer.observe(document.body, {
-                childList: true,
-                subtree: true,
-                attributes: true
-            });
-
-            // Close popup
-            window.closeCarPopup = () => {
-                popup.classList.remove("show");
-            };
-
-            // Submit + validate
-            window.submitPopup = () => {
-                const phone = phoneInput.value.trim();
-                const phoneRegex = /^[6-9]\d{9}$/;
-
-                if (!phoneRegex.test(phone)) {
-                    alert("Please enter a valid 10-digit mobile number");
-                    phoneInput.focus();
-                    return;
-                }
-
-                successMsg.style.display = "block";
-                document.querySelector(".cta-btn").disabled = true;
-
-                setTimeout(() => {
-                    closeCarPopup();
-                }, 1500);
-            };
-        });
-    </script>
-
-
-
+    <?= $this->include('web/components/pop-up.php') ?>
 
 </main>
-
-
-
-
-
-
-
-
-
-
 
 <?= $this->endSection(); ?>
