@@ -3265,13 +3265,13 @@ body {
 .img-comp {
   position: relative;
   overflow: hidden;
-  height: 250px;
+  height: 350px;
   user-select: none;
 }
 
-.img-comp-img img {
+/* .img-comp-img img {
   object-fit: contain !important;
-}
+} */
 
 .img-comp-img img,
 .img-comp-overlay img {
@@ -3281,15 +3281,33 @@ body {
   display: block;
 }
 
+.img-comp-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: width .22s cubic-bezier(.25, .1, .25, 1);
+}
+
 /* OVERLAY (After Image) */
 .img-comp-overlay {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 50%;
   height: 100%;
   overflow: hidden;
   transition: width .22s cubic-bezier(.25, .1, .25, 1);
+}
+
+.img-comp-overlay img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  max-width: none;
 }
 
 /* DIVIDER LINE */
