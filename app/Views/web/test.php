@@ -71,9 +71,9 @@
 
   <section class="app-hero-slider">
     <div class="slider-track">
-      <img src="<?= base_url() ?>public/assets/web/img/serv.jpeg" alt="">
-      <img src="<?= base_url() ?>public/assets/web/img/serv.jpeg" alt="">
-      <img src="<?= base_url() ?>public/assets/web/img/serv.jpeg" alt="">
+      <img src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="">
+      <img src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="">
+      <img src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="">
     </div>
 
     <div class="hero-overlay">

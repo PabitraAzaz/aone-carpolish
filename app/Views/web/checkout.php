@@ -48,7 +48,7 @@
                             <img src="<?= base_url($modelImagePath) ?>"
                                  alt="<?= esc($model['name'] ?? 'Model') ?>"
                                  class="model-image-img"
-                                 onerror="this.src='<?= base_url('public/assets/web/img/model/alto.png') ?>'">
+                                 onerror="this.src='<?= base_url('public/assets/img/model/alto.png') ?>'">
                         </div>
                         <div class="detail-content">
                             <span class="detail-label">Model</span>

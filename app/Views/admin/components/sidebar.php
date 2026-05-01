@@ -11,7 +11,7 @@
     <!-- Brand Logo -->
 
     <a href="<?= base_url('admin/dashboard') ?>" class="brand-link">
-        <img src="<?= base_url('public/assets/web/img/aone-car-polish-logo.png') ?>" alt="Logo" height="50" width="180">
+        <img src="<?= base_url('public/assets/img/aone-car-polish-logo.png') ?>" alt="Logo" height="50" width="180">
     </a>
 
 

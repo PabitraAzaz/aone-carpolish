@@ -7,26 +7,26 @@
   <title>A-one Car Polish</title>
 
   <!-- Bootstrap (optional, for your global site styles) -->
-  <link href="<?= base_url() ?>public/assets/web/css/bootstrap-bundle-min.css" rel="stylesheet">
+  <link href="<?= base_url() ?>public/assets/css/bootstrap-bundle-min.css" rel="stylesheet">
 
   <!-- ✅ Make sure Bootstrap JS  -->
-  <script src="<?= base_url() ?>public/assets/web/script/bootstrap-bundle-min.js"></script>
+  <script src="<?= base_url() ?>public/assets/js/bootstrap-bundle-min.js"></script>
 
 
   <!-- Swiper CSS -->
-  <link rel="stylesheet" href="<?= base_url() ?>public/assets/web/css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/swiper-bundle.min.css" />
 
   <!-- SwiperJS JS -->
-  <script src="<?= base_url() ?>public/assets/web/script/swiper-bundle-min.js"></script>
+  <script src="<?= base_url() ?>public/assets/js/swiper-bundle-min.js"></script>
 
   <!-- Font Awesome Icons -->
-  <link href="<?= base_url() ?>public/assets/web/css/font-awesome-min.css" rel="stylesheet">
+  <link href="<?= base_url() ?>public/assets/css/font-awesome-min.css" rel="stylesheet">
 
-  <link href="<?= base_url() ?>public/assets/web/css/bootstrap-icons.css" rel="stylesheet">
+  <link href="<?= base_url() ?>public/assets/css/bootstrap-icons.css" rel="stylesheet">
 
 
   <link
-    href="<?= base_url() ?>public/assets/web/css/googleapis.css"
+    href="<?= base_url() ?>public/assets/css/googleapis.css"
     rel="stylesheet" />
 
 
@@ -35,7 +35,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
 
-  <link rel="stylesheet" href="<?= base_url() ?>public/assets/web/css/style.css?v=124" />
+  <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/style.css?v=124" />
   <!-- <script src="script.js"></script> -->
 
   <!-- 🚀 IMMEDIATE PRELOADER SKIP - Before DOM renders -->
@@ -72,7 +72,7 @@
 
       <!-- Brand Logo (Mobile) -->
       <a href="<?= base_url() ?>/" class="logo logo--mobile">
-        <img src="<?= base_url('public/assets/web/img/logo.png') ?>" alt="AONE Car Polish Mobile" />
+        <img src="<?= base_url('public/assets/img/logo.png') ?>" alt="AONE Car Polish Mobile" />
       </a>
 
       <!-- Mobile Brand Text -->
@@ -80,7 +80,7 @@
 
       <!-- Brand Logo (Desktop) -->
       <a href="<?= base_url() ?>/" class="logo logo--desktop">
-        <img src="<?= base_url('public/assets/web/img/aone-car-polish-logo.png') ?>" alt="AONE Car Polish Desktop" />
+        <img src="<?= base_url('public/assets/img/aone-car-polish-logo.png') ?>" alt="AONE Car Polish Desktop" />
       </a>
 
       <!-- Profile Icon -->

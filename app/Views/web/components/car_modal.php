@@ -341,7 +341,7 @@
 
                 <?php else: ?>
                     <div class="car-card" data-brand="suzuki">
-                        <img src="<?= base_url('public/assets/web/img/brand_logos/1.png') ?>" style="height: 50px;">
+                        <img src="<?= base_url('public/assets/img/brand_logos/1.png') ?>" style="height: 50px;">
                         <br><span>Suzuki</span>
                     </div>
 

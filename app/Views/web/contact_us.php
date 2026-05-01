@@ -51,7 +51,7 @@
   <div class="row g-4 align-items-center">
     <!-- Image Column -->
     <div class="col-12 col-md-6 col-lg-6">
-      <img src="<?= base_url() ?>public/assets/web/img/contact_us.jpeg" alt="Contact Us" class="contact-image" />
+      <img src="<?= base_url() ?>public/assets/img/contact_us.jpeg" alt="Contact Us" class="contact-image" />
     </div>
     <!-- Form Column -->
     <div class="col-12 col-md-6 col-lg-6">

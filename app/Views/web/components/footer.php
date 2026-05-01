@@ -75,7 +75,7 @@
     <!-- Brand Section -->
     <div class="footer-section about">
       <div class="footer-logo-box">
-        <img src="<?= base_url() ?>public/assets/web/img/aone-car-polish-logo.png" alt="AutoShine Logo" class="footer-logo-img">
+        <img src="<?= base_url() ?>public/assets/img/aone-car-polish-logo.png" alt="AutoShine Logo" class="footer-logo-img">
       </div>
       <p>Aone Car Polish Can Convert Your Oh-So-Dirty-Looking Car Into A Shiny Luxurious Vehicle.
         We Provide A Complete Service Package At Affordable Prices.

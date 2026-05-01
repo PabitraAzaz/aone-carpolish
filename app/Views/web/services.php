@@ -40,7 +40,7 @@
       <!-- Tall card with YouTube video -->
       <div class="service-card tall">
         <div class="card-img-wrapper">
-          <img class="card-img" src="<?= base_url() ?>public/assets/web/img/serv.jpeg" alt="Premium Detailing">
+          <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Premium Detailing">
           <div class="play-button">&#9658;</div>
         </div>
         <div class="card-content">
@@ -50,7 +50,7 @@
 
       <!-- Short card with static image -->
       <div class="service-card short">
-        <img class="card-img" src="<?= base_url() ?>public/assets/web/img/serv.jpeg" alt="Mini Wash">
+        <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Mini Wash">
         <div class="card-content">
           <div class="card-title">Mini Wash</div>
         </div>
@@ -59,7 +59,7 @@
       <!-- Another tall card with YouTube video -->
       <div class="service-card tall">
         <div class="card-img-wrapper">
-          <img class="card-img" src="<?= base_url() ?>public/assets/web/img/serv.jpeg" alt="Luxury Polish">
+          <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Luxury Polish">
           <div class="play-button">&#9658;</div>
         </div>
         <div class="card-content">
@@ -69,7 +69,7 @@
 
       <!-- Another short card with static image -->
       <div class="service-card short">
-        <img class="card-img" src="<?= base_url() ?>public/assets/web/img/serv.jpeg" alt="Seat Foam Wash">
+        <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Seat Foam Wash">
         <div class="card-content">
           <div class="card-title">Seat Foam Wash</div>
         </div>
@@ -81,7 +81,7 @@
     <div class="services-col">
 
       <div class="service-card short">
-        <img class="card-img" src="<?= base_url() ?>public/assets/web/img/serv.jpeg" alt="Vacuum Interior">
+        <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Vacuum Interior">
         <div class="card-content">
           <div class="card-title">Vacuum Interior</div>
         </div>
@@ -89,7 +89,7 @@
 
       <div class="service-card tall">
         <div class="card-img-wrapper">
-          <img class="card-img" src="<?= base_url() ?>public/assets/web/img/serv.jpeg" alt="Scratch Removal">
+          <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Scratch Removal">
           <div class="play-button">&#9658;</div>
         </div>
         <div class="card-content">
@@ -98,7 +98,7 @@
       </div>
 
       <div class="service-card short">
-        <img class="card-img" src="<?= base_url() ?>public/assets/web/img/serv.jpeg" alt="Seat Foam Wash">
+        <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Seat Foam Wash">
         <div class="card-content">
           <div class="card-title">Seat Foam Wash</div>
         </div>
@@ -106,7 +106,7 @@
 
       <div class="service-card tall" >
         <div class="card-img-wrapper">
-          <img class="card-img" src="<?= base_url() ?>public/assets/web/img/serv.jpeg" alt="Scratch Removal">
+          <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Scratch Removal">
           <div class="play-button">&#9658;</div>
         </div>
         <div class="card-content">
@@ -338,7 +338,7 @@
       <!-- Basic Wash -->
       <div class="col-6 col-md-3">
         <div class="car-wash-type-card">
-          <img src="<?= base_url() ?>public/assets/web/img/car_wash/basic_wash.png" class="car-wash-type-bg" alt="Basic Wash">
+          <img src="<?= base_url() ?>public/assets/img/car_wash/basic_wash.png" class="car-wash-type-bg" alt="Basic Wash">
           <div class="car-wash-type-overlay"></div>
           <div class="car-wash-type-content">
             <div class="car-wash-type-title">Basic Wash</div>
@@ -349,7 +349,7 @@
       <!-- Foam Wash -->
       <div class="col-6 col-md-3">
         <div class="car-wash-type-card">
-          <img src="<?= base_url() ?>public/assets/web/img/car_wash/foam_wash.png" class="car-wash-type-bg" alt="Foam Wash">
+          <img src="<?= base_url() ?>public/assets/img/car_wash/foam_wash.png" class="car-wash-type-bg" alt="Foam Wash">
           <div class="car-wash-type-overlay"></div>
           <div class="car-wash-type-content">
             <div class="car-wash-type-title">Foam Wash</div>
@@ -359,7 +359,7 @@
       <!-- Interior Cleaning -->
       <div class="col-6 col-md-3">
         <div class="car-wash-type-card">
-          <img src="<?= base_url() ?>public/assets/web/img/car_wash/interior_cleaning.png" class="car-wash-type-bg" alt="Interior Cleaning">
+          <img src="<?= base_url() ?>public/assets/img/car_wash/interior_cleaning.png" class="car-wash-type-bg" alt="Interior Cleaning">
           <div class="car-wash-type-overlay"></div>
           <div class="car-wash-type-content">
             <div class="car-wash-type-title">Interior Cleaning</div>
@@ -369,7 +369,7 @@
       <!-- Ceramic Coating -->
       <div class="col-6 col-md-3">
         <div class="car-wash-type-card">
-          <img src="<?= base_url() ?>public/assets/web/img/car_wash/ceramic_coating.png" class="car-wash-type-bg" alt="Ceramic Coating">
+          <img src="<?= base_url() ?>public/assets/img/car_wash/ceramic_coating.png" class="car-wash-type-bg" alt="Ceramic Coating">
           <div class="car-wash-type-overlay"></div>
           <div class="car-wash-type-content">
 
@@ -396,31 +396,31 @@
     <div class="tyre-polish-scroll">
       <!-- Water Based -->
       <div class="tyre-polish-card container">
-        <img src="<?= base_url() ?>public/assets/web/img/tyre.png" class="tyre-polish-img" alt="Water Based Polish">
+        <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Water Based Polish">
         <div class="tyre-polish-title">Water Based</div>
         <div class="tyre-polish-label">Matte/Satin Finish</div>
       </div>
       <!-- Solvent/Silicone Based -->
       <div class="tyre-polish-card container">
-        <img src="<?= base_url() ?>public/assets/web/img/tyre.png" class="tyre-polish-img" alt="Solvent Polish">
+        <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Solvent Polish">
         <div class="tyre-polish-title">Solvent Based</div>
         <div class="tyre-polish-label">High Gloss Shine</div>
       </div>
       <!-- Gel Polish -->
       <div class="tyre-polish-card container">
-        <img src="<?= base_url() ?>public/assets/web/img/tyre.png" class="tyre-polish-img" alt="Gel Polish">
+        <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Gel Polish">
         <div class="tyre-polish-title">Gel Polish</div>
         <div class="tyre-polish-label">Durable Protection</div>
       </div>
       <!-- Spray Shine -->
       <div class="tyre-polish-card container">
-        <img src="<?= base_url() ?>public/assets/web/img/tyre.png" class="tyre-polish-img" alt="Spray Shine">
+        <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Spray Shine">
         <div class="tyre-polish-title">Spray Shine</div>
         <div class="tyre-polish-label">Fast Application</div>
       </div>
       <!-- Foam Cleaner/Polish -->
       <div class="tyre-polish-card container">
-        <img src="<?= base_url() ?>public/assets/web/img/tyre.png" class="tyre-polish-img" alt="Foam Polish">
+        <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Foam Polish">
         <div class="tyre-polish-title">Foam Polish</div>
         <div class="tyre-polish-label">Clean + Polish</div>
       </div>
@@ -446,7 +446,7 @@
     <div class="google-review-heading">
       <h2 class="gr-title">Google Reviews</h2>
       <p class="gr-rating">
-        <img src="<?= base_url() ?>public/assets/web/img/g-logo.png" alt="Google">
+        <img src="<?= base_url() ?>public/assets/img/g-logo.png" alt="Google">
         4.9 / 5.0 Rating
       </p>
     </div>
@@ -459,7 +459,7 @@
             <span class="gr-quote">“</span>
 
             <div class="gr-badge">
-              <img src="<?= base_url() ?>public/assets/web/img/g-logo.png">
+              <img src="<?= base_url() ?>public/assets/img/g-logo.png">
               <span>Google Review</span>
             </div>
 
@@ -471,7 +471,7 @@
             </p>
 
             <div class="gr-user">
-              <img src="<?= base_url() ?>public/assets/web/img/testimonial_icon.png">
+              <img src="<?= base_url() ?>public/assets/img/testimonial_icon.png">
               <div>
                 <h4>Alena Rosser</h4>
                 <span>Local Guide • 8 Reviews</span>
@@ -486,7 +486,7 @@
             <span class="gr-quote">“</span>
 
             <div class="gr-badge">
-              <img src="<?= base_url() ?>public/assets/web/img/g-logo.png">
+              <img src="<?= base_url() ?>public/assets/img/g-logo.png">
               <span>Google Review</span>
             </div>
 
@@ -497,7 +497,7 @@
             </p>
 
             <div class="gr-user">
-              <img src="<?= base_url() ?>public/assets/web/img/testimonial_icon.png">
+              <img src="<?= base_url() ?>public/assets/img/testimonial_icon.png">
               <div>
                 <h4>Manish Bhaskar</h4>
                 <span>Local Guide • 12 Reviews</span>

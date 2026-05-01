@@ -82,9 +82,9 @@
 
     <section class="app-hero-slider">
       <div class="slider-track">
-        <img src="<?= base_url() ?>public/assets/web/img/services/full-car-body-1.png" alt="">
-        <img src="<?= base_url() ?>public/assets/web/img/services/full-car-body-2.png" alt="">
-        <img src="<?= base_url() ?>public/assets/web/img/services/full-car-body-3.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/full-car-body-1.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/full-car-body-2.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/full-car-body-3.png" alt="">
       </div>
 
       <div class="hero-overlay">
@@ -179,9 +179,9 @@
 
     <section class="app-hero-slider">
       <div class="slider-track">
-        <img src="<?= base_url() ?>public/assets/web/img/services/dashboard-1.png" alt="">
-        <img src="<?= base_url() ?>public/assets/web/img/services/dashboard-2.png" alt="">
-        <img src="<?= base_url() ?>public/assets/web/img/services/dashboard-3.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/dashboard-1.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/dashboard-2.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/dashboard-3.png" alt="">
       </div>
 
       <div class="hero-overlay">
@@ -274,9 +274,9 @@
 
     <section class="app-hero-slider">
       <div class="slider-track">
-        <img src="<?= base_url() ?>public/assets/web/img/services/vacuum-cleaning-1.png" alt="">
-        <img src="<?= base_url() ?>public/assets/web/img/services/vacuum-cleaning-2.png" alt="">
-        <img src="<?= base_url() ?>public/assets/web/img/services/vacuum-cleaning-3.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/vacuum-cleaning-1.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/vacuum-cleaning-2.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/vacuum-cleaning-3.png" alt="">
       </div>
 
       <div class="hero-overlay">
@@ -357,9 +357,9 @@
 
     <section class="app-hero-slider">
       <div class="slider-track">
-        <img src="<?= base_url() ?>public/assets/web/img/services/seat-foam-wash-1.png" alt="">
-        <img src="<?= base_url() ?>public/assets/web/img/services/seat-foam-wash-2.png" alt="">
-        <img src="<?= base_url() ?>public/assets/web/img/services/seat-foam-wash-3.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/seat-foam-wash-1.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/seat-foam-wash-2.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/seat-foam-wash-3.png" alt="">
       </div>
 
       <div class="hero-overlay">
@@ -456,9 +456,9 @@
     <section class="app-hero-slider">
 
       <div class="slider-track">
-        <img src="<?= base_url() ?>public/assets/web/img/services/nickle-polish-1.png" alt="">
-        <img src="<?= base_url() ?>public/assets/web/img/services/nickle-polish-2.png" alt="">
-        <img src="<?= base_url() ?>public/assets/web/img/services/nickle-polish-3.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/nickle-polish-1.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/nickle-polish-2.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/nickle-polish-3.png" alt="">
       </div>
 
       <div class="hero-overlay">
@@ -543,9 +543,9 @@
     <section class="app-hero-slider">
 
       <div class="slider-track">
-        <img src="<?= base_url() ?>public/assets/web/img/services/nickle-polish-1.png" alt="">
-        <img src="<?= base_url() ?>public/assets/web/img/services/nickle-polish-2.png" alt="">
-        <img src="<?= base_url() ?>public/assets/web/img/services/nickle-polish-3.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/nickle-polish-1.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/nickle-polish-2.png" alt="">
+        <img src="<?= base_url() ?>public/assets/img/services/nickle-polish-3.png" alt="">
       </div>
 
       <div class="hero-overlay">

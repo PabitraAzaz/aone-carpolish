@@ -12,7 +12,7 @@
 <!-- Header -->
 <header id="siteHeader" style="display: none">
   <span>
-    <img src="<?= base_url('public/assets/web/img/logo.png') ?>"
+    <img src="<?= base_url('public/assets/img/logo.png') ?>"
       id="headerLogo"
       class="header-logo"
       alt="Aone Car Polish"></span>
@@ -25,18 +25,18 @@
 
   <!-- Brand Logo (initial splash logo) -->
   <img
-    src="<?= base_url('public/assets/web/img/aone-car-polish-logo.png') ?>"
+    src="<?= base_url('public/assets/img/aone-car-polish-logo.png') ?>"
     class="brand-logo"
     id="brandLogo"
     alt="Aone Car Polish" />
 
   <!-- Top images -->
-  <img src="<?= base_url() ?>public/assets/web/img/pre-loader/left-top.png" class="float-img top left" />
-  <img src="<?= base_url() ?>public/assets/web/img/pre-loader/right-top.png" class="float-img top right" />
+  <img src="<?= base_url() ?>public/assets/img/pre-loader/left-top.png" class="float-img top left" />
+  <img src="<?= base_url() ?>public/assets/img/pre-loader/right-top.png" class="float-img top right" />
 
   <!-- Bottom images -->
-  <img src="<?= base_url() ?>public/assets/web/img/pre-loader/left-bottom.png" class="float-img bot left" />
-  <img src="<?= base_url() ?>public/assets/web/img/pre-loader/right-bottom.png" class="float-img bot right" />
+  <img src="<?= base_url() ?>public/assets/img/pre-loader/left-bottom.png" class="float-img bot left" />
+  <img src="<?= base_url() ?>public/assets/img/pre-loader/right-bottom.png" class="float-img bot right" />
 
   <!-- Car animation -->
   <div class="loading-window">
@@ -80,7 +80,7 @@
 
 
         <div class="swiper-slide">
-          <img src="<?= base_url() ?>public/assets/web/img/newimg/banner1.png" alt="BMW Car Polishing" />
+          <img src="<?= base_url() ?>public/assets/img/newimg/banner1.png" alt="BMW Car Polishing" />
           <div class="banner-center">
             <h2><span></span> Car Polish and Detailing Service in Newtown</h2>
             <p>Shine with us....</p>
@@ -88,7 +88,7 @@
         </div>
 
         <div class="swiper-slide">
-          <img src="<?= base_url() ?>public/assets/web/img/newimg/banner2.png" alt="Mercedes Detailing" />
+          <img src="<?= base_url() ?>public/assets/img/newimg/banner2.png" alt="Mercedes Detailing" />
           <div class="banner-center">
             <h2><span>Top Car Detailing Services In Newtown Kolkata</span> </h2>
             <p>Luxury Inside • Perfection Outside</p>
@@ -96,7 +96,7 @@
         </div>
 
         <div class="swiper-slide">
-          <img src="<?= base_url() ?>public/assets/web/img/newimg/banner2.png" alt="Mercedes Detailing" />
+          <img src="<?= base_url() ?>public/assets/img/newimg/banner2.png" alt="Mercedes Detailing" />
           <div class="banner-center">
             <h2><span>Best Car Polish Service In Newtown Kolkata</span> </h2>
             <p>Luxury Inside • Perfection Outside</p>
@@ -105,7 +105,7 @@
 
 
         <div class="swiper-slide">
-          <img src="<?= base_url() ?>public/assets/web/img/newimg/banner2.png" alt="Mercedes Detailing" />
+          <img src="<?= base_url() ?>public/assets/img/newimg/banner2.png" alt="Mercedes Detailing" />
           <div class="banner-center">
             <h2><span>Branded Car Service Packages Are Available</span> </h2>
             <p>Luxury Inside • Perfection Outside</p>
@@ -115,7 +115,7 @@
 
 
         <div class="swiper-slide">
-          <img src="<?= base_url() ?>public/assets/web/img/pre-loader/center-top.png" alt="Audi Ceramic Coating" />
+          <img src="<?= base_url() ?>public/assets/img/pre-loader/center-top.png" alt="Audi Ceramic Coating" />
           <div class="banner-center">
             <h2><span>Top-Quality Car Service At Affordable Prices</span> </h2>
             <p>Protect Your Pride • Feel The Difference</p>
@@ -123,7 +123,7 @@
         </div>
 
         <div class="swiper-slide">
-          <img src="<?= base_url() ?>public/assets/web/img/newimg/banner2.png" alt="Mercedes Detailing" />
+          <img src="<?= base_url() ?>public/assets/img/newimg/banner2.png" alt="Mercedes Detailing" />
           <div class="banner-center">
             <h2><span>Top Class Interior Car Polish Service In Newtown</span> </h2>
             <p>Luxury Inside • Perfection Outside</p>
@@ -170,35 +170,35 @@
     <div class="swiper logo-carousel">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="<?= base_url() ?>public/assets/web/img/brand_logos/1.png" alt="Audi">
+          <img src="<?= base_url() ?>public/assets/img/brand_logos/1.png" alt="Audi">
           <span class="brand-caption">Audi</span>
         </div>
         <div class="swiper-slide">
-          <img src="<?= base_url() ?>public/assets/web/img/brand_logos/2.png" alt="BMW">
+          <img src="<?= base_url() ?>public/assets/img/brand_logos/2.png" alt="BMW">
           <span class="brand-caption">BMW</span>
         </div>
         <div class="swiper-slide">
-          <img src="<?= base_url() ?>public/assets/web/img/brand_logos/3.png" alt="Jaguar">
+          <img src="<?= base_url() ?>public/assets/img/brand_logos/3.png" alt="Jaguar">
           <span class="brand-caption">Jaguar</span>
         </div>
         <div class="swiper-slide">
-          <img src="<?= base_url() ?>public/assets/web/img/brand_logos/4.png" alt="Skoda">
+          <img src="<?= base_url() ?>public/assets/img/brand_logos/4.png" alt="Skoda">
           <span class="brand-caption">Skoda</span>
         </div>
         <div class="swiper-slide">
-          <img src="<?= base_url() ?>public/assets/web/img/brand_logos/5.png" alt="Mercedes">
+          <img src="<?= base_url() ?>public/assets/img/brand_logos/5.png" alt="Mercedes">
           <span class="brand-caption">Mercedes</span>
         </div>
         <div class="swiper-slide">
-          <img src="<?= base_url() ?>public/assets/web/img/brand_logos/6.png" alt="Ford">
+          <img src="<?= base_url() ?>public/assets/img/brand_logos/6.png" alt="Ford">
           <span class="brand-caption">Ford</span>
         </div>
         <div class="swiper-slide">
-          <img src="<?= base_url() ?>public/assets/web/img/brand_logos/7.png" alt="Suzuki">
+          <img src="<?= base_url() ?>public/assets/img/brand_logos/7.png" alt="Suzuki">
           <span class="brand-caption">Suzuki</span>
         </div>
         <div class="swiper-slide">
-          <img src="<?= base_url() ?>public/assets/web/img/brand_logos/8.png" alt="Hyundai">
+          <img src="<?= base_url() ?>public/assets/img/brand_logos/8.png" alt="Hyundai">
           <span class="brand-caption">Hyundai</span>
         </div>
         <!-- Add more slides as needed -->
@@ -365,7 +365,7 @@
       </div>
 
       <div class="about-img">
-        <img src="<?= base_url() ?>public/assets/web/img/newimg/3.png" alt="Car Image">
+        <img src="<?= base_url() ?>public/assets/img/newimg/3.png" alt="Car Image">
       </div>
 
     </div>
@@ -401,7 +401,7 @@
         <div class="swiper-slide container">
           <div class="car-service-card">
             <div class="service-image-wrapper">
-              <img src="<?= base_url() ?>public/assets/web/img/aqr.png" class="card-service-img" alt="Premium Polish">
+              <img src="<?= base_url() ?>public/assets/img/aqr.png" class="card-service-img" alt="Premium Polish">
               <div class="offer-badge">20% OFF</div>
             </div>
             <div class="car-service-card-body">
@@ -417,7 +417,7 @@
         <div class="swiper-slide container">
           <div class="car-service-card">
             <div class="service-image-wrapper">
-              <img src="<?= base_url() ?>public/assets/web/img/aqr.png" class="card-service-img" alt="Express Detailing">
+              <img src="<?= base_url() ?>public/assets/img/aqr.png" class="card-service-img" alt="Express Detailing">
               <div class="offer-badge">Free Pickup</div>
             </div>
             <div class="car-service-card-body">
@@ -433,7 +433,7 @@
         <div class="swiper-slide container">
           <div class="car-service-card">
             <div class="service-image-wrapper">
-              <img src="<?= base_url() ?>public/assets/web/img/aqr.png" class="card-service-img" alt="Ceramic Shine">
+              <img src="<?= base_url() ?>public/assets/img/aqr.png" class="card-service-img" alt="Ceramic Shine">
               <div class="offer-badge">Best Seller</div>
             </div>
             <div class="car-service-card-body">
@@ -491,7 +491,7 @@
 
         <!-- Slide 1 -->
         <div class="swiper-slide">
-          <img class="slide-bg" src="<?= base_url() ?>public/assets/web/img/banner_slider.png" alt="Polish Offer">
+          <img class="slide-bg" src="<?= base_url() ?>public/assets/img/banner_slider.png" alt="Polish Offer">
           <div class="slide-overlay"></div>
 
           <div class="slide-text">
@@ -505,7 +505,7 @@
 
         <!-- Slide 2 -->
         <div class="swiper-slide">
-          <img class="slide-bg" src="<?= base_url() ?>public/assets/web/img/banner_slider.png" alt="Express Service">
+          <img class="slide-bg" src="<?= base_url() ?>public/assets/img/banner_slider.png" alt="Express Service">
           <div class="slide-overlay"></div>
 
           <div class="slide-text">
@@ -519,7 +519,7 @@
 
         <!-- Slide 3 -->
         <div class="swiper-slide">
-          <img class="slide-bg" src="<?= base_url() ?>public/assets/web/img/banner_slider.png" alt="Detailing Package">
+          <img class="slide-bg" src="<?= base_url() ?>public/assets/img/banner_slider.png" alt="Detailing Package">
           <div class="slide-overlay"></div>
 
           <div class="slide-text">
@@ -533,7 +533,7 @@
 
         <!-- Slide 4 -->
         <div class="swiper-slide">
-          <img class="slide-bg" src="<?= base_url() ?>public/assets/web/img/banner_slider.png" alt="Polish Offer">
+          <img class="slide-bg" src="<?= base_url() ?>public/assets/img/banner_slider.png" alt="Polish Offer">
           <div class="slide-overlay"></div>
 
           <div class="slide-text">
@@ -547,7 +547,7 @@
 
         <!-- Slide 5 -->
         <div class="swiper-slide">
-          <img class="slide-bg" src="<?= base_url() ?>public/assets/web/img/banner_slider.png" alt="Express Service">
+          <img class="slide-bg" src="<?= base_url() ?>public/assets/img/banner_slider.png" alt="Express Service">
           <div class="slide-overlay"></div>
 
           <div class="slide-text">
@@ -560,7 +560,7 @@
 
         <!-- Slide 6 -->
         <div class="swiper-slide">
-          <img class="slide-bg" src="<?= base_url() ?>public/assets/web/img/banner_slider.png" alt="Detailing Package">
+          <img class="slide-bg" src="<?= base_url() ?>public/assets/img/banner_slider.png" alt="Detailing Package">
           <div class="slide-overlay"></div>
 
           <div class="slide-text">
@@ -612,7 +612,7 @@
       <!-- Basic Wash -->
       <div class="col-6 col-md-3">
         <div class="car-wash-type-card">
-          <img src="<?= base_url() ?>public/assets/web/img/car_wash/basic_wash.png" class="car-wash-type-bg" alt="Basic Wash">
+          <img src="<?= base_url() ?>public/assets/img/car_wash/basic_wash.png" class="car-wash-type-bg" alt="Basic Wash">
           <div class="car-wash-type-overlay"></div>
           <div class="car-wash-type-content">
             <div class="car-wash-type-title">Basic Wash</div>
@@ -623,7 +623,7 @@
       <!-- Foam Wash -->
       <div class="col-6 col-md-3">
         <div class="car-wash-type-card">
-          <img src="<?= base_url() ?>public/assets/web/img/car_wash/foam_wash.png" class="car-wash-type-bg" alt="Foam Wash">
+          <img src="<?= base_url() ?>public/assets/img/car_wash/foam_wash.png" class="car-wash-type-bg" alt="Foam Wash">
           <div class="car-wash-type-overlay"></div>
           <div class="car-wash-type-content">
             <div class="car-wash-type-title">Foam Wash</div>
@@ -633,7 +633,7 @@
       <!-- Interior Cleaning -->
       <div class="col-6 col-md-3">
         <div class="car-wash-type-card">
-          <img src="<?= base_url() ?>public/assets/web/img/car_wash/interior_cleaning.png" class="car-wash-type-bg" alt="Interior Cleaning">
+          <img src="<?= base_url() ?>public/assets/img/car_wash/interior_cleaning.png" class="car-wash-type-bg" alt="Interior Cleaning">
           <div class="car-wash-type-overlay"></div>
           <div class="car-wash-type-content">
             <div class="car-wash-type-title">Interior Cleaning</div>
@@ -643,7 +643,7 @@
       <!-- Ceramic Coating -->
       <div class="col-6 col-md-3">
         <div class="car-wash-type-card">
-          <img src="<?= base_url() ?>public/assets/web/img/car_wash/ceramic_coating.png" class="car-wash-type-bg" alt="Ceramic Coating">
+          <img src="<?= base_url() ?>public/assets/img/car_wash/ceramic_coating.png" class="car-wash-type-bg" alt="Ceramic Coating">
           <div class="car-wash-type-overlay"></div>
           <div class="car-wash-type-content">
 
@@ -665,7 +665,7 @@
 
 
   <div class="responsive-offer-banner padd-mar">
-    <img src="<?= base_url() ?>public/assets/web/img/newimg/banner2.png" alt="Offer Banner">
+    <img src="<?= base_url() ?>public/assets/img/newimg/banner2.png" alt="Offer Banner">
     <div class="offer-banner-content">
       <span id="animated-text" class="offer-banner-text"></span>
       <a href="#book" class="offer-banner-btn">Book Now</a>
@@ -739,31 +739,31 @@
       <div class="tyre-polish-scroll">
         <!-- Water Based -->
         <div class="tyre-polish-card container">
-          <img src="<?= base_url() ?>public/assets/web/img/tyre.png" class="tyre-polish-img" alt="Water Based Polish">
+          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Water Based Polish">
           <div class="tyre-polish-title">Water Based</div>
           <div class="tyre-polish-label">Matte/Satin Finish</div>
         </div>
         <!-- Solvent/Silicone Based -->
         <div class="tyre-polish-card container">
-          <img src="<?= base_url() ?>public/assets/web/img/tyre.png" class="tyre-polish-img" alt="Solvent Polish">
+          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Solvent Polish">
           <div class="tyre-polish-title">Solvent Based</div>
           <div class="tyre-polish-label">High Gloss Shine</div>
         </div>
         <!-- Gel Polish -->
         <div class="tyre-polish-card container">
-          <img src="<?= base_url() ?>public/assets/web/img/tyre.png" class="tyre-polish-img" alt="Gel Polish">
+          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Gel Polish">
           <div class="tyre-polish-title">Gel Polish</div>
           <div class="tyre-polish-label">Durable Protection</div>
         </div>
         <!-- Spray Shine -->
         <div class="tyre-polish-card container">
-          <img src="<?= base_url() ?>public/assets/web/img/tyre.png" class="tyre-polish-img" alt="Spray Shine">
+          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Spray Shine">
           <div class="tyre-polish-title">Spray Shine</div>
           <div class="tyre-polish-label">Fast Application</div>
         </div>
         <!-- Foam Cleaner/Polish -->
         <div class="tyre-polish-card container">
-          <img src="<?= base_url() ?>public/assets/web/img/tyre.png" class="tyre-polish-img" alt="Foam Polish">
+          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Foam Polish">
           <div class="tyre-polish-title">Foam Polish</div>
           <div class="tyre-polish-label">Clean + Polish</div>
         </div>
@@ -1444,7 +1444,7 @@
         <div class="blog-row">
           <div class="blog-card">
 
-            <img class="blog-img" src="<?= base_url() ?>public/assets/web/img/images.jpeg" alt="Blog 1">
+            <img class="blog-img" src="<?= base_url() ?>public/assets/img/images.jpeg" alt="Blog 1">
 
             <div class="blog-content">
               <div class="blog-tags-group">
@@ -1459,7 +1459,7 @@
             </div>
           </div>
           <div class="blog-card">
-            <img class="blog-img" src="<?= base_url() ?>public/assets/web/img/images.jpeg" alt="Blog 2">
+            <img class="blog-img" src="<?= base_url() ?>public/assets/img/images.jpeg" alt="Blog 2">
 
             <div class="blog-content">
               <div class="blog-tags-group">
@@ -1474,7 +1474,7 @@
             </div>
           </div>
           <div class="blog-card hide-mobile">
-            <img class="blog-img" src="<?= base_url() ?>public/assets/web/img/images.jpeg" alt="Blog 3">
+            <img class="blog-img" src="<?= base_url() ?>public/assets/img/images.jpeg" alt="Blog 3">
 
             <div class="blog-content">
               <div class="blog-tags-group">

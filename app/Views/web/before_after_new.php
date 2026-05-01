@@ -48,7 +48,7 @@
                         <div class="preview-stage" id="originalStage">
                             <img
                                 id="originalPreview"
-                                src="<?= base_url('public/assets/web/img/old_creta.png') ?>"
+                                src="<?= base_url('public/assets/img/old_creta.png') ?>"
                                 alt="Original car preview">
                         </div>
                     </article>
