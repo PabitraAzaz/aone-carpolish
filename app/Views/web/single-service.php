@@ -90,23 +90,23 @@
             <div class="services-scroll">
 
                 <div class="service-item">
-                    <div class="img-box"><i class="fa-solid fa-tags"></i></div>
-                    <p>Annual Plan</p>
+                    <div class="img-box"><i class="fa-solid fa-house"></i></div>
+                    <p>Doorstep Service</p>
                 </div>
 
                 <div class="service-item">
-                    <div class="img-box"><i class="fa-solid fa-screwdriver-wrench"></i></div>
-                    <p>Service</p>
+                    <div class="img-box"><i class="fa-solid fa-star"></i></div>
+                    <p>Top Rated Experts</p>
                 </div>
 
                 <div class="service-item">
-                    <div class="img-box"><i class="fa-solid fa-gas-pump"></i></div>
-                    <p>Repair & gas refill</p>
+                    <div class="img-box"><i class="fa-solid fa-shield-halved"></i></div>
+                    <p>Safe for All Cars</p>
                 </div>
 
                 <div class="service-item">
-                    <div class="img-box"><i class="fa-solid fa-toolbox"></i></div>
-                    <p>Installation</p>
+                    <div class="img-box"><i class="fa-solid fa-gem"></i></div>
+                    <p>Premium Products</p>
                 </div>
 
             </div>
@@ -624,23 +624,23 @@
                     <div class="services-scroll">
 
                         <div class="service-item">
-                            <div class="img-box"><i class="fa-solid fa-tags"></i></div>
-                            <p>Annual Plan</p>
+                            <div class="img-box"><i class="fa-solid fa-house"></i></div>
+                            <p>Doorstep Service</p>
                         </div>
 
                         <div class="service-item">
-                            <div class="img-box"><i class="fa-solid fa-screwdriver-wrench"></i></div>
-                            <p>Service</p>
+                            <div class="img-box"><i class="fa-solid fa-star"></i></div>
+                            <p>Top Rated Experts</p>
                         </div>
 
                         <div class="service-item">
-                            <div class="img-box"><i class="fa-solid fa-gas-pump"></i></div>
-                            <p>Repair & gas refill</p>
+                            <div class="img-box"><i class="fa-solid fa-shield-halved"></i></div>
+                            <p>Safe for All Cars</p>
                         </div>
 
                         <div class="service-item">
-                            <div class="img-box"><i class="fa-solid fa-toolbox"></i></div>
-                            <p>Installation</p>
+                            <div class="img-box"><i class="fa-solid fa-gem"></i></div>
+                            <p>Premium Products</p>
                         </div>
 
                     </div>
