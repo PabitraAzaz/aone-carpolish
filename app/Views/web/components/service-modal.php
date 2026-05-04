@@ -164,45 +164,145 @@
 
 <script>
     const services = {
+
         1: {
-            title: "Premium Car Wash & Interior Cleaning",
-            img: "https://img.freepik.com/free-photo/car-wash-service_23-2149334136.jpg",
-            intro: "Give your car a showroom-like shine with our professional cleaning service.",
+            title: "Full Car Body Wax Polishing",
+            img: "<?= base_url('public/assets/img/services/1.png') ?>",
+
+            intro: "Ceramic coating & wax polishing enhances your car’s shine while protecting it from UV rays, dust, water spots, oxidation, and minor scratches.",
 
             includes: [
-                "Exterior foam wash with scratch-free cleaning",
-                "Interior vacuuming and dashboard polishing",
-                "Tyre and alloy cleaning"
+                "Complete exterior foam wash & surface cleaning",
+                "Machine polishing for swirl & scratch reduction",
+                "Premium wax / ceramic protection coating",
+                "Tyre & alloy cleaning with gloss finish"
             ],
 
             benefits: [
-                "Improves vehicle appearance",
-                "Protects paint and interior surfaces",
-                "Enhances driving comfort"
+                "Deep gloss & showroom shine",
+                "UV, dust & water protection",
+                "Long-lasting paint safety",
+                "Improves resale value"
             ],
 
-            process: "Our expert arrives at your location, inspects the vehicle, performs deep cleaning using specialized tools, and ensures a spotless finish."
+            process: "We start with deep exterior cleaning, followed by machine polishing to remove imperfections. A premium wax or ceramic layer is applied to protect and enhance long-lasting shine."
         },
 
         2: {
-            title: "Engine Oil Change & Health Check",
-            img: "https://img.freepik.com/free-photo/car-engine-maintenance_23-2149334138.jpg",
-            intro: "Keep your engine running smoothly with high-performance oil replacement.",
+            title: "Dashboard Cleaning & Wax Polish",
+            img: "<?= base_url('public/assets/img/services/dashboard.png') ?>",
+
+            intro: "A premium interior care service that cleans, restores, and protects your dashboard and interior panels from dust, stains, and sun damage.",
 
             includes: [
-                "Premium engine oil replacement",
-                "Engine diagnostics check",
-                "Fluid inspection"
+                "Dashboard dust & stain removal",
+                "Interior panel deep cleaning",
+                "Protective wax coating application",
+                "UV protection treatment"
             ],
 
             benefits: [
-                "Improves engine life",
-                "Enhances performance",
-                "Prevents breakdowns"
+                "Prevents cracking & fading",
+                "Restores dashboard shine",
+                "Keeps interior fresh & clean",
+                "Long-lasting protection"
             ],
 
-            process: "Our technician replaces old oil, checks engine components, and ensures optimal performance."
+            process: "We carefully clean all dashboard and interior surfaces, remove dust and stains, and apply a protective wax coating to prevent fading and maintain a fresh finish."
+        },
+
+        3: {
+            title: "Full Interior Vacuum Cleaning",
+            img: "<?= base_url('public/assets/img/services/vacuum-cleaning.png') ?>",
+
+            intro: "Comprehensive vacuum cleaning service that removes dust, dirt, and debris from all interior areas for a fresh and comfortable cabin.",
+
+            includes: [
+                "Seat & carpet vacuum cleaning",
+                "Footwell & mat cleaning",
+                "Boot space vacuuming",
+                "Hard-to-reach area cleaning"
+            ],
+
+            benefits: [
+                "Dust-free cabin environment",
+                "Improves air quality",
+                "Comfortable driving experience",
+                "Maintains interior hygiene"
+            ],
+
+            process: "Our team uses high-power vacuum equipment to clean seats, carpets, boot space, and tight areas, ensuring a completely dust-free and fresh interior."
+        },
+
+        4: {
+            title: "All Seat Foam Wash & Polish",
+            img: "<?= base_url('public/assets/img/services/seat-foam-wash.png') ?>",
+
+            intro: "Deep seat cleaning service using foam-based solutions to remove stains, dirt, and odours while restoring comfort and hygiene.",
+
+            includes: [
+                "Foam-based deep seat cleaning",
+                "Fabric & leather safe treatment",
+                "Stain & dirt removal",
+                "Odour removal process"
+            ],
+
+            benefits: [
+                "Hygienic & fresh seating",
+                "Removes tough stains",
+                "Restores seat softness",
+                "Improves interior comfort"
+            ],
+
+            process: "We apply professional foam cleaners to seats, scrub gently to remove stains, and extract dirt to restore softness, freshness, and hygiene."
+        },
+
+        5: {
+            title: "Nickel & Chrome Wax Polish",
+            img: "<?= base_url('public/assets/img/services/nickle-polish.png') ?>",
+
+            intro: "Specialized metal polishing service that restores shine and protects chrome and metal parts from rust, dullness, and corrosion.",
+
+            includes: [
+                "Chrome & metal polishing",
+                "Oxidation removal",
+                "Water mark cleaning",
+                "Protective anti-rust coating"
+            ],
+
+            benefits: [
+                "Mirror-like metal shine",
+                "Prevents rust & corrosion",
+                "Enhances overall appearance",
+                "Long-lasting finish"
+            ],
+
+            process: "We polish all metal parts like grills and trims, remove oxidation and dullness, and apply a protective coating for long-lasting shine."
+        },
+
+        6: {
+            title: "Headlamp & All Glass Scratch Removing",
+            img: "<?= base_url('public/assets/img/services/headlamp.png') ?>",
+
+            intro: "Precision restoration service that removes minor scratches, haze, and swirl marks from headlamps and glass surfaces.",
+
+            includes: [
+                "Headlamp restoration polishing",
+                "Glass scratch reduction",
+                "Swirl & haze removal",
+                "Clarity enhancement treatment"
+            ],
+
+            benefits: [
+                "Improves night visibility",
+                "Crystal-clear glass finish",
+                "Safer driving experience",
+                "Enhanced vehicle look"
+            ],
+
+            process: "We carefully polish headlights and glass surfaces to remove scratches and haze, restoring clarity and improving visibility for safer driving."
         }
+
     };
 
     /* OPEN */

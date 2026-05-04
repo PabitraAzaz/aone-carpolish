@@ -29,13 +29,13 @@
 
                 <div class="slides">
                     <div class="slide">
-                        <img src="https://img.freepik.com/free-photo/technician-repairing-air-conditioner_23-2149334146.jpg">
+                        <img src="<?= base_url('public/assets/img/services/full-car-body-3.png') ?>">
                     </div>
                     <div class="slide">
-                        <img src="https://img.freepik.com/free-photo/repairman-fixing-air-conditioner_23-2149334145.jpg">
+                        <img src="<?= base_url('public/assets/img/services/full-car-body-2.png') ?>">
                     </div>
                     <div class="slide">
-                        <img src="https://img.freepik.com/free-photo/air-conditioner-cleaning_23-2149334147.jpg">
+                        <img src="<?= base_url('public/assets/img/services/full-car-body-1.png') ?>">
                     </div>
                 </div>
 
@@ -56,7 +56,10 @@
                     <p class="rating">
                         <i class="fa-solid fa-star"></i> 4.8 (8.5K services)
                         <br>
-                        <i class="fa-solid fa-tag"></i>  ₹ 999
+                    <div class="price">
+                        <i class="fa-solid fa-tag"></i>
+                        ₹7,999 <span>₹10,000</span>
+                    </div>
                     </p>
                 </div>
 
@@ -116,30 +119,35 @@
 
             <h3 class="section-heading">Service</h3>
 
+            <!-- SERVICE 1 -->
             <div class="package-card">
 
                 <div class="package-banner">
-                    <span class="tag">Free inspection</span>
-                    <img src="https://img.freepik.com/free-photo/car-wash-service_23-2149334136.jpg">
+                    <span class="tag">Premium Shine</span>
+                    <img src="<?= base_url('public/assets/img/services/1.png') ?>">
                 </div>
 
                 <div class="package-details">
 
                     <div class="title-row">
-                        <h5>Premium Car Wash & Interior Cleaning</h5>
+                        <h5>Full Car Body Wax Polish</h5>
                         <button class="add-btn" onclick="openModal(1)">View details</button>
                     </div>
 
-                    <div class="rating"><i class="fa-solid fa-star"></i> 4.8 (12K services)</div>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i> 4.8 (12K services)
+                    </div>
 
                     <div class="info">
-                        <span><i class="fa-regular fa-clock"></i> 60 mins</span>
-                        <span><i class="fa-solid fa-shield-halved"></i> 7-day service guarantee</span>
+                        <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
+                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
                     </div>
 
                     <ul class="features">
-                        <li>Exterior foam wash with high-pressure rinse</li>
-                        <li>Interior vacuuming & dashboard polishing</li>
+                        <li>Paint enhancement & deep gloss finish</li>
+                        <li>UV, dust & water protection</li>
+                        <li>Professional-grade ceramic coating</li>
+                        <li>Improves resale value</li>
                     </ul>
 
                 </div>
@@ -148,30 +156,35 @@
 
             <hr>
 
+            <!-- SERVICE 2 -->
             <div class="package-card">
 
                 <div class="package-banner">
-                    <span class="tag">Engine care</span>
-                    <img src="https://img.freepik.com/free-photo/car-engine-maintenance_23-2149334138.jpg">
+                    <span class="tag">Interior Care</span>
+                    <img src="<?= base_url('public/assets/img/services/dashboard.png') ?>">
                 </div>
 
                 <div class="package-details">
 
                     <div class="title-row">
-                        <h5>Engine Oil Change & Health Check</h5>
+                        <h5>Dashboard Cleaning & Wax Polish</h5>
                         <button class="add-btn" onclick="openModal(2)">View details</button>
                     </div>
 
-                    <div class="rating"><i class="fa-solid fa-star"></i> 4.7 (9K services)</div>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i> 4.7 (9K services)
+                    </div>
 
                     <div class="info">
-                        <span><i class="fa-regular fa-clock"></i> 45 mins</span>
-                        <span><i class="fa-solid fa-car"></i> All car types</span>
+                        <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
+                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
                     </div>
 
                     <ul class="features">
-                        <li>Oil replacement with premium grade lubricants</li>
-                        <li>Complete engine diagnostics & performance check</li>
+                        <li>Dust & stain removal from dashboard</li>
+                        <li>Interior panel deep cleaning</li>
+                        <li>Protective wax coating</li>
+                        <li>UV protection to prevent fading & cracking</li>
                     </ul>
 
                 </div>
@@ -180,30 +193,146 @@
 
             <hr>
 
+            <!-- SERVICE 3 -->
             <div class="package-card">
 
                 <div class="package-banner">
-                    <span class="tag">Deep clean</span>
-                    <img src="https://img.freepik.com/free-photo/car-interior-cleaning_23-2149334137.jpg">
+                    <span class="tag">Cabin Clean</span>
+                    <img src="<?= base_url('public/assets/img/services/vacuum-cleaning.png') ?>">
                 </div>
 
                 <div class="package-details">
 
                     <div class="title-row">
-                        <h5>Full Interior Detailing & Sanitization</h5>
+                        <h5>Full Interior Vacuum Cleaning</h5>
                         <button class="add-btn" onclick="openModal(3)">View details</button>
                     </div>
 
-                    <div class="rating"><i class="fa-solid fa-star"></i> 4.9 (15K services)</div>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i> 4.9 (15K services)
+                    </div>
 
                     <div class="info">
-                        <span><i class="fa-regular fa-clock"></i> 90 mins</span>
-                        <span><i class="fa-solid fa-spray-can"></i> Anti-bacterial treatment</span>
+                        <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
+                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
                     </div>
 
                     <ul class="features">
-                        <li>Seat shampooing & stain removal</li>
-                        <li>Odor elimination & cabin sanitization</li>
+                        <li>Dust & debris removal from seats & carpets</li>
+                        <li>Boot space & hard-to-reach area cleaning</li>
+                        <li>Complete cabin vacuuming</li>
+                        <li>Improves air quality inside car</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <!-- SERVICE 4 -->
+            <div class="package-card">
+
+                <div class="package-banner">
+                    <span class="tag">Deep Interior Refresh</span>
+                    <img src="<?= base_url('public/assets/img/services/seat-foam-wash.png') ?>">
+                </div>
+
+                <div class="package-details">
+
+                    <div class="title-row">
+                        <h5>All Seat Foam Wash & Polish</h5>
+                        <button class="add-btn" onclick="openModal(4)">View details</button>
+                    </div>
+
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i> 4.8 (11K services)
+                    </div>
+
+                    <div class="info">
+                        <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
+                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                    </div>
+
+                    <ul class="features">
+                        <li>Deep foam cleaning for fabric & leather seats</li>
+                        <li>Stain & dirt removal</li>
+                        <li>Odour removal treatment</li>
+                        <li>Restores softness & comfort</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <!-- SERVICE 5 -->
+            <div class="package-card">
+
+                <div class="package-banner">
+                    <span class="tag">Metal Care</span>
+                    <img src="<?= base_url('public/assets/img/services/nickle-polish.png') ?>">
+                </div>
+
+                <div class="package-details">
+
+                    <div class="title-row">
+                        <h5>Nickel & Chrome Wax Polish</h5>
+                        <button class="add-btn" onclick="openModal(5)">View details</button>
+                    </div>
+
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i> 4.7 (8K services)
+                    </div>
+
+                    <div class="info">
+                        <span><i class="fa-regular fa-clock"></i> 2–3 hours</span>
+                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                    </div>
+
+                    <ul class="features">
+                        <li>Restores shine on chrome & metal parts</li>
+                        <li>Removes oxidation & water marks</li>
+                        <li>Rust & corrosion protection</li>
+                        <li>Enhances overall vehicle appearance</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <!-- SERVICE 6 -->
+            <div class="package-card">
+
+                <div class="package-banner">
+                    <span class="tag">Visibility Restore</span>
+                    <img src="<?= base_url('public/assets/img/services/headlamp.png') ?>">
+                </div>
+
+                <div class="package-details">
+
+                    <div class="title-row">
+                        <h5>Headlamp & All Glass Scratch Removing</h5>
+                        <button class="add-btn" onclick="openModal(6)">View details</button>
+                    </div>
+
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i> 4.8 (10K services)
+                    </div>
+
+                    <div class="info">
+                        <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
+                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                    </div>
+
+                    <ul class="features">
+                        <li>Removes minor scratches & swirl marks</li>
+                        <li>Restores headlamp clarity</li>
+                        <li>Improves night-time visibility</li>
+                        <li>Crystal-clear glass finish</li>
                     </ul>
 
                 </div>
@@ -224,118 +353,236 @@
             <!-- Banner -->
             <div class="banner-wrapper">
                 <div class="banner-slider">
-                    <div class="slides">
-                        <div class="slide">
-                            <img src="https://img.freepik.com/free-photo/technician-repairing-air-conditioner_23-2149334146.jpg">
+
+                    <div class="banner-header">
+                        <!-- CENTER TITLE (hidden initially) -->
+                        <div class="header-title">Car Service</div>
+                        <div class="header-actions">
+                            <div class="circle-btn"><i class="fa-solid fa-share-nodes"></i></div>
                         </div>
                     </div>
+
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="<?= base_url('public/assets/img/services/full-car-body-3.png') ?>">
+                        </div>
+                        <div class="slide">
+                            <img src="<?= base_url('public/assets/img/services/full-car-body-2.png') ?>">
+                        </div>
+                        <div class="slide">
+                            <img src="<?= base_url('public/assets/img/services/full-car-body-1.png') ?>">
+                        </div>
+                    </div>
+
+                    <div class="pagination">
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
                 </div>
             </div>
 
             <!-- Packages -->
-            <div class="packages-desktop">
-                <!-- SAME CARD -->
-                <div class="package-card desktop-card">
+            <div class="packages-section">
 
-                    <!-- LEFT IMAGE -->
+                <!-- 1 -->
+                <div class="package-card desktop-card">
                     <div class="package-left">
-                        <span class="tag">Free gas check</span>
-                        <img src="https://img.freepik.com/free-photo/air-conditioner-cleaning_23-2149334147.jpg">
+                        <span class="tag">Premium Shine</span>
+                        <img src="<?= base_url('public/assets/img/services/1.png') ?>">
                     </div>
 
-                    <!-- RIGHT CONTENT -->
                     <div class="package-right">
-
                         <div class="title-row">
-                            <h5>Foam-jet service (2 ACs)</h5>
+                            <h5>Full Car Body Wax Polish</h5>
                             <button class="add-btn" onclick="openModal(1)">View details</button>
                         </div>
 
                         <div class="rating">
-                            <i class="fa-solid fa-star"></i> 4.76 (2.6M reviews)
+                            <i class="fa-solid fa-star"></i> 4.8 (12K services)
                         </div>
 
                         <div class="info">
-                            <span><i class="fa-regular fa-clock"></i> 60 mins</span>
-                            <span><i class="fa-solid fa-shield-halved"></i> 7-day service guarantee</span>
+                            <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
+                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
                         </div>
 
                         <ul class="features">
-                            <li>Applicable for both window or split ACs</li>
-                            <li>Indoor unit deep cleaning with foam & jet spray</li>
+                            <li>Paint enhancement & deep gloss finish</li>
+                            <li>UV, dust & water protection</li>
+                            <li>Professional-grade ceramic coating</li>
+                            <li>Improves resale value</li>
                         </ul>
-
                     </div>
-
                 </div>
+
                 <hr>
-                <div class="package-card desktop-card">
 
-                    <!-- LEFT IMAGE -->
+                <!-- 2 -->
+                <div class="package-card desktop-card">
                     <div class="package-left">
-                        <span class="tag">Free gas check</span>
-                        <img src="https://img.freepik.com/free-photo/air-conditioner-cleaning_23-2149334147.jpg">
+                        <span class="tag">Interior Care</span>
+                        <img src="<?= base_url('public/assets/img/services/dashboard.png') ?>">
                     </div>
 
-                    <!-- RIGHT CONTENT -->
                     <div class="package-right">
-
                         <div class="title-row">
-                            <h5>Foam-jet service (2 ACs)</h5>
-                            <button class="add-btn" onclick="openModal(1)">View details</button>
+                            <h5>Dashboard Cleaning & Wax Polish</h5>
+                            <button class="add-btn" onclick="openModal(2)">View details</button>
                         </div>
 
                         <div class="rating">
-                            <i class="fa-solid fa-star"></i> 4.76 (2.6M reviews)
+                            <i class="fa-solid fa-star"></i> 4.7 (9K services)
                         </div>
 
                         <div class="info">
-                            <span><i class="fa-regular fa-clock"></i> 60 mins</span>
-                            <span><i class="fa-solid fa-shield-halved"></i> 7-day service guarantee</span>
+                            <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
+                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
                         </div>
 
                         <ul class="features">
-                            <li>Applicable for both window or split ACs</li>
-                            <li>Indoor unit deep cleaning with foam & jet spray</li>
+                            <li>Dust & stain removal from dashboard</li>
+                            <li>Interior panel deep cleaning</li>
+                            <li>Protective wax coating</li>
+                            <li>UV protection to prevent fading & cracking</li>
                         </ul>
-
                     </div>
-
                 </div>
+
                 <hr>
-                <div class="package-card desktop-card">
 
-                    <!-- LEFT IMAGE -->
+                <!-- 3 -->
+                <div class="package-card desktop-card">
                     <div class="package-left">
-                        <span class="tag">Free gas check</span>
-                        <img src="https://img.freepik.com/free-photo/air-conditioner-cleaning_23-2149334147.jpg">
+                        <span class="tag">Cabin Clean</span>
+                        <img src="<?= base_url('public/assets/img/services/vacuum-cleaning.png') ?>">
                     </div>
 
-                    <!-- RIGHT CONTENT -->
                     <div class="package-right">
-
                         <div class="title-row">
-                            <h5>Foam-jet service (2 ACs)</h5>
-                            <button class="add-btn" onclick="openModal(1)">View details</button>
+                            <h5>Full Interior Vacuum Cleaning</h5>
+                            <button class="add-btn" onclick="openModal(3)">View details</button>
                         </div>
 
                         <div class="rating">
-                            <i class="fa-solid fa-star"></i> 4.76 (2.6M reviews)
+                            <i class="fa-solid fa-star"></i> 4.9 (15K services)
                         </div>
 
                         <div class="info">
-                            <span><i class="fa-regular fa-clock"></i> 60 mins</span>
-                            <span><i class="fa-solid fa-shield-halved"></i> 7-day service guarantee</span>
+                            <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
+                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
                         </div>
 
                         <ul class="features">
-                            <li>Applicable for both window or split ACs</li>
-                            <li>Indoor unit deep cleaning with foam & jet spray</li>
+                            <li>Dust & debris removal from seats & carpets</li>
+                            <li>Boot space & hard-to-reach area cleaning</li>
+                            <li>Complete cabin vacuuming</li>
+                            <li>Improves air quality inside car</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- 4 -->
+                <div class="package-card desktop-card">
+                    <div class="package-left">
+                        <span class="tag">Deep Interior Refresh</span>
+                        <img src="<?= base_url('public/assets/img/services/seat-foam-wash.png') ?>">
+                    </div>
+
+                    <div class="package-right">
+                        <div class="title-row">
+                            <h5>All Seat Foam Wash & Polish</h5>
+                            <button class="add-btn" onclick="openModal(4)">View details</button>
+                        </div>
+
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i> 4.8 (11K services)
+                        </div>
+
+                        <div class="info">
+                            <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
+                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                        </div>
+
+                        <ul class="features">
+                            <li>Deep foam cleaning for fabric & leather seats</li>
+                            <li>Stain & dirt removal</li>
+                            <li>Odour removal treatment</li>
+                            <li>Restores softness & comfort</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- 5 -->
+                <div class="package-card desktop-card">
+                    <div class="package-left">
+                        <span class="tag">Metal Care</span>
+                        <img src="<?= base_url('public/assets/img/services/nickle-polish.png') ?>">
+                    </div>
+
+                    <div class="package-right">
+                        <div class="title-row">
+                            <h5>Nickel & Chrome Wax Polish</h5>
+                            <button class="add-btn" onclick="openModal(5)">View details</button>
+                        </div>
+
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i> 4.7 (8K services)
+                        </div>
+
+                        <div class="info">
+                            <span><i class="fa-regular fa-clock"></i> 2–3 hours</span>
+                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                        </div>
+
+                        <ul class="features">
+                            <li>Restores shine on chrome & metal parts</li>
+                            <li>Removes oxidation & water marks</li>
+                            <li>Rust & corrosion protection</li>
+                            <li>Enhances overall vehicle appearance</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- 6 -->
+                <div class="package-card desktop-card">
+                    <div class="package-left">
+                        <span class="tag">Visibility Restore</span>
+                        <img src="<?= base_url('public/assets/img/services/headlamp.png') ?>">
+                    </div>
+
+                    <div class="package-right">
+                        <div class="title-row">
+                            <h5>Headlamp & All Glass Scratch Removing</h5>
+                            <button class="add-btn" onclick="openModal(6)">View details</button>
+                        </div>
+
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i> 4.8 (10K services)
+                        </div>
+
+                        <div class="info">
+                            <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
+                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                        </div>
+
+                        <ul class="features">
+                            <li>Removes minor scratches & swirl marks</li>
+                            <li>Restores headlamp clarity</li>
+                            <li>Improves night-time visibility</li>
+                            <li>Crystal-clear glass finish</li>
                         </ul>
 
                     </div>
-
                 </div>
+
             </div>
 
         </div>
