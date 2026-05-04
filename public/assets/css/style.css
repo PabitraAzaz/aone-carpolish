@@ -88,7 +88,6 @@ body {
 }
 
 /* ======= Padding======== */
-
 .padd-mar {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
@@ -99,7 +98,6 @@ body {
     padding-top: 40px !important;
     padding-bottom: 40px !important;
   }
-
 }
 
 /* ================= PRELOADER BASE ================= */
@@ -113,7 +111,9 @@ body {
   flex-direction: column;
   background: #fff;
   overflow: hidden;
-  transition: opacity 0.8s ease, visibility 0.8s ease;
+  transition:
+    opacity 0.8s ease,
+    visibility 0.8s ease;
 }
 
 .preloader.hidden {
@@ -654,10 +654,10 @@ body {
   width: 100%;
   height: 70px;
 
-  /* ✅ Fully transparent */
+  /* âœ… Fully transparent */
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(20px);
-  /* ✅ Remove blur */
+  /* âœ… Remove blur */
   padding: 0.6rem 1rem;
   z-index: 1500;
   display: flex;
@@ -667,7 +667,7 @@ body {
   transition: all 0.4s ease;
 
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
-  /* ✅ No shadow or overlay */
+  /* âœ… No shadow or overlay */
 }
 
 .header-container {
@@ -727,10 +727,12 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Hover effect – rotate gradient + glow */
+/* Hover effect â€“ rotate gradient + glow */
 .header-icon:hover {
   transform: rotate(8deg) scale(1.1);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3), 0 0 10px rgba(255, 62, 48, 0.5),
+  box-shadow:
+    0 0 20px rgba(255, 255, 255, 0.3),
+    0 0 10px rgba(255, 62, 48, 0.5),
     0 0 10px rgba(23, 107, 239, 0.5);
 }
 
@@ -846,7 +848,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Active Nav Item — Gradient Fill */
+/* Active Nav Item â€” Gradient Fill */
 .nav-item.active {
   background: linear-gradient(135deg,
       var(--red),
@@ -1177,7 +1179,7 @@ body {
   margin-left: 0.5rem;
 }
 
-/* ===== On Scroll (Sticky Mode — Only for Mobile) ===== */
+/* ===== On Scroll (Sticky Mode â€” Only for Mobile) ===== */
 @media (max-width: 991px) {
   .sticky-search.active {
     position: fixed;
@@ -1428,13 +1430,11 @@ body {
   }
 
   .read-more-btn {
-    font-size: .8rem;
-
+    font-size: 0.8rem;
   }
 
   .service-btn {
-    font-size: .8rem;
-
+    font-size: 0.8rem;
   }
 }
 
@@ -1989,7 +1989,9 @@ body {
   /* responsive padding */
   border-radius: 12px;
   box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 /* Icon */
@@ -2045,7 +2047,10 @@ body {
   margin-bottom: 20px;
   text-align: center;
   box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
   cursor: pointer;
 }
 
@@ -2116,7 +2121,7 @@ body {
   overflow: hidden;
 }
 
-/* Video container — 9:16 for mobile */
+/* Video container â€” 9:16 for mobile */
 .portrait-slider .video-container {
   position: relative;
   width: 100%;
@@ -2144,7 +2149,7 @@ body {
   }
 }
 
-/* Tablet — slightly less tall */
+/* Tablet â€” slightly less tall */
 @media (min-width: 768px) and (max-width: 1023px) {
   .portrait-slider .video-container {
     aspect-ratio: 9 / 15;
@@ -2152,7 +2157,7 @@ body {
   }
 }
 
-/* Desktop/Laptop — 3 shorts, compact height */
+/* Desktop/Laptop â€” 3 shorts, compact height */
 @media (min-width: 1024px) {
   .portrait-slider .video-container {
     aspect-ratio: 9 / 13;
@@ -2310,7 +2315,9 @@ body {
 .faq-icon {
   font-weight: bold;
   font-size: 1.3rem;
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
   display: inline-block;
 }
 
@@ -2434,8 +2441,6 @@ body {
 
 .subscribe-container {
   text-align: center;
-
-  padding: 40px;
   color: white;
 }
 
@@ -2479,7 +2484,7 @@ body {
 
 .email-input {
   padding: 10px;
-  font-size: 16px;
+  font-size: 15px;
   border: 1px solid #444;
   margin-right: 10px;
   border-radius: 5px;
@@ -2487,7 +2492,7 @@ body {
 }
 
 .subscribe-btn {
-  padding: 10px 20px;
+  padding: 10px 10px;
   background-color: #f1c232;
   /* Yellow color */
   color: white;
@@ -2541,6 +2546,7 @@ body {
 }
 
 .footer-section p {
+  text-align: justify;
   color: #ccc;
   font-size: 13px;
   line-height: 1.7;
@@ -2574,7 +2580,7 @@ body {
   padding-left: 5px;
 }
 
-.footer-section p:hover {
+.footer-section ul li:hover {
   color: #ffcc00;
   padding-left: 5px;
 }
@@ -2585,22 +2591,35 @@ body {
 }
 
 .footer-logo-img {
-  width: 300px;
+  width: 180px;
 }
 
 /* Socials */
 .footer-socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
   margin-top: 15px;
 }
 
 .footer-socials a {
-  display: inline-block;
-  margin-right: 10px;
+  flex: 1;
+  /* makes equal width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 20px;
   color: #fff;
-  font-size: 25px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
+/* ðŸ”¥ Proper hover background */
 .footer-socials a:hover {
   background: linear-gradient(90deg,
       var(--red),
@@ -2609,6 +2628,7 @@ body {
       var(--green));
   /*color: #ffcc00; */
   transform: scale(1.2);
+  color: #fff;
 }
 
 /* Footer Bottom */
@@ -2772,7 +2792,7 @@ body {
   }
 
   .card-title {
-    font-size: .92rem;
+    font-size: 0.92rem;
   }
 }
 
@@ -2790,7 +2810,7 @@ body {
 .google-review-card {
   background: #fff;
   border-radius: 14px;
-  box-shadow: 0 4px 16px rgba(60, 86, 125, .10);
+  box-shadow: 0 4px 16px rgba(60, 86, 125, 0.1);
   padding: 24px 22px 20px;
   min-height: 220px;
   text-align: left;
@@ -2861,7 +2881,7 @@ body {
 .google-review-card .read-more {
   font-weight: 600;
   color: #5256e3;
-  font-size: .95rem;
+  font-size: 0.95rem;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -2906,6 +2926,8 @@ body {
 /* =========== Connect Us ================ */
 
 .contact-info-section {
+  max-width: 1500px;
+  margin: auto;
   padding: 50px 15px;
   background: var(--bacckground);
   text-align: center;
@@ -2916,7 +2938,9 @@ body {
   border-radius: 16px;
   box-shadow: 0 12px 30px rgba(140, 141, 144, 0.12);
   padding: 25px 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   cursor: pointer;
   height: 100%;
 }
@@ -3107,22 +3131,30 @@ body {
   }
 }
 
-/* CHARACTER-LENGTH–BASED TYPING ANIMATION */
+/* CHARACTER-LENGTHâ€“BASED TYPING ANIMATION */
 
 .typed-blogs {
-  animation: typing-blogs 3s steps(5) forwards, blink 1.2s infinite;
+  animation:
+    typing-blogs 3s steps(5) forwards,
+    blink 1.2s infinite;
 }
 
 .typed-ba {
-  animation: typing-ba 3s steps(11) forwards, blink 1.2s infinite;
+  animation:
+    typing-ba 3s steps(11) forwards,
+    blink 1.2s infinite;
 }
 
 .typed-contact {
-  animation: typing-contact 3s steps(10) forwards, blink 1.2s infinite;
+  animation:
+    typing-contact 3s steps(10) forwards,
+    blink 1.2s infinite;
 }
 
 .typed-service {
-  animation: typing-service 2.8s steps(8) forwards, blink 1.2s infinite;
+  animation:
+    typing-service 2.8s steps(8) forwards,
+    blink 1.2s infinite;
 }
 
 /* INDIVIDUAL TYPING KEYFRAMES */
@@ -3252,7 +3284,9 @@ body {
   border-radius: 14px;
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.06);
   padding-bottom: 5px;
-  transition: transform .28s ease, box-shadow .28s ease;
+  transition:
+    transform 0.28s ease,
+    box-shadow 0.28s ease;
   will-change: transform;
 }
 
@@ -3288,7 +3322,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  transition: width .22s cubic-bezier(.25, .1, .25, 1);
+  transition: width 0.22s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 /* OVERLAY (After Image) */
@@ -3299,7 +3333,7 @@ body {
   width: 50%;
   height: 100%;
   overflow: hidden;
-  transition: width .22s cubic-bezier(.25, .1, .25, 1);
+  transition: width 0.22s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .img-comp-overlay img {
@@ -3335,7 +3369,7 @@ body {
   box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.28);
   cursor: ew-resize;
   z-index: 12;
-  transition: transform .22s ease;
+  transition: transform 0.22s ease;
 }
 
 .img-comp-slider:hover {
@@ -3348,7 +3382,8 @@ body {
 /* ===== GOOGLE REVIEW SECTION ONLY ===== */
 
 .google-review-section {
-  background: #f9f9f9;
+  max-width: 1500px;
+  margin: auto;
   padding: 60px 0;
 }
 
@@ -3474,5 +3509,50 @@ body {
 
   .google-review-section .gr-card {
     padding: 16px 14px;
+  }
+}
+
+.section-title {
+  padding-bottom: 30px;
+}
+
+section {
+  max-width: 1500px;
+  margin: 80px auto;
+  padding: 0 15px;
+  /* prevents edge sticking */
+}
+
+/* ðŸ“± Mobile */
+@media (max-width: 576px) {
+  section {
+    margin: 40px auto;
+  }
+}
+
+/* ðŸ“± Small tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+  section {
+    margin: 50px auto;
+  }
+}
+
+/* ðŸ’» Tablets / small laptops */
+@media (min-width: 769px) and (max-width: 1023px) {
+  section {
+    margin: 60px auto;
+  }
+}
+
+/* ðŸ–¥ï¸ Desktop */
+@media (min-width: 1024px) {
+  section {
+    margin: 80px auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  section {
+    margin: 100px auto;
   }
 }
