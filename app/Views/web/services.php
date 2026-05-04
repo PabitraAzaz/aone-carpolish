@@ -23,39 +23,57 @@
       <!-- Tall card with YouTube video -->
       <div class="service-card tall">
         <div class="card-img-wrapper">
-          <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Premium Detailing">
+          <img class="card-img" src="<?= base_url() ?>public/assets/img/services/1/premium-detailing.png" alt="Premium Detailing">
           <div class="play-button">&#9658;</div>
         </div>
-        <div class="card-content">
-          <div class="card-title">Premium Detailing</div>
-        </div>
+
+
+        <a href="<?= base_url('single-service') ?>">
+          <div class="card-content">
+            <div class="card-title">Premium Detailing</div>
+          </div>
+        </a>
+
+
       </div>
 
       <!-- Short card with static image -->
       <div class="service-card short">
-        <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Mini Wash">
-        <div class="card-content">
-          <div class="card-title">Mini Wash</div>
-        </div>
+        <img class="card-img" src="<?= base_url() ?>public/assets/img/services/1/mini-wash.png" alt="Mini Wash">
+
+        <a href="<?= base_url('single-service') ?>">
+          <div class="card-content">
+            <div class="card-title">Mini Wash</div>
+          </div>
+        </a>
+
       </div>
 
       <!-- Another tall card with YouTube video -->
       <div class="service-card tall">
         <div class="card-img-wrapper">
-          <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Luxury Polish">
+          <img class="card-img" src="<?= base_url() ?>public/assets/img/services/1/luxury-polish.png" alt="Luxury Polish">
           <div class="play-button">&#9658;</div>
         </div>
-        <div class="card-content">
-          <div class="card-title">Luxury Polish</div>
-        </div>
+
+
+        <a href="<?= base_url('single-service') ?>">
+          <div class="card-content">
+            <div class="card-title">Luxury Polish</div>
+          </div>
+        </a>
+
       </div>
 
       <!-- Another short card with static image -->
       <div class="service-card short">
-        <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Seat Foam Wash">
-        <div class="card-content">
-          <div class="card-title">Seat Foam Wash</div>
-        </div>
+        <img class="card-img" src="<?= base_url() ?>public/assets/img/services/1/seat-foam-wash.png" alt="Seat Foam Wash">
+
+        <a href="<?= base_url('single-service') ?>">
+          <div class="card-content">
+            <div class="card-title">Seat Foam Wash</div>
+          </div>
+        </a>
       </div>
 
     </div>
@@ -64,37 +82,49 @@
     <div class="services-col">
 
       <div class="service-card short">
-        <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Vacuum Interior">
-        <div class="card-content">
-          <div class="card-title">Vacuum Interior</div>
-        </div>
+        <img class="card-img" src="<?= base_url() ?>public/assets/img/services/1/vacuum-interior.png" alt="Vacuum Interior">
+
+        <a href="<?= base_url('single-service') ?>">
+          <div class="card-content">
+            <div class="card-title">Vacuum Interior</div>
+          </div>
+        </a>
       </div>
+
 
       <div class="service-card tall">
         <div class="card-img-wrapper">
-          <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Scratch Removal">
+          <img class="card-img" src="<?= base_url() ?>public/assets/img/services/1/ceramic_coating.png" alt="Ceramic Coating">
           <div class="play-button">&#9658;</div>
         </div>
-        <div class="card-content">
-          <div class="card-title">Scratch Removal</div>
-        </div>
+        <a href="<?= base_url('single-service') ?>">
+          <div class="card-content">
+            <div class="card-title">Ceramic Coating</div>
+          </div>
+        </a>
       </div>
+
 
       <div class="service-card short">
-        <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Seat Foam Wash">
-        <div class="card-content">
-          <div class="card-title">Seat Foam Wash</div>
-        </div>
+        <img class="card-img" src="<?= base_url() ?>public/assets/img/services/1/engine-bay-cleaning.png" alt="Engine Bay Cleaning">
+        <a href="<?= base_url('single-service') ?>">
+          <div class="card-content">
+            <div class="card-title">Engine Bay Cleaning</div>
+          </div>
+        </a>
       </div>
 
       <div class="service-card tall">
         <div class="card-img-wrapper">
-          <img class="card-img" src="<?= base_url() ?>public/assets/img/serv.jpeg" alt="Scratch Removal">
+          <img class="card-img" src="<?= base_url() ?>public/assets/img/services/1/scratch-removal.png" alt="Scratch Removal">
           <div class="play-button">&#9658;</div>
         </div>
-        <div class="card-content">
-          <div class="card-title">Scratch Removal</div>
-        </div>
+
+        <a href="<?= base_url('single-service') ?>">
+          <div class="card-content">
+            <div class="card-title">Scratch Removal</div>
+          </div>
+        </a>
       </div>
 
     </div>
@@ -291,52 +321,71 @@
     <h3 class="section-title">Types of Car Washes</h4>
       <div class="row g-3">
         <!-- Basic Wash -->
-        <div class="col-6 col-md-3">
-          <div class="car-wash-type-card">
-            <img src="<?= base_url() ?>public/assets/img/car_wash/basic_wash.png" class="car-wash-type-bg" alt="Basic Wash">
-            <div class="car-wash-type-overlay"></div>
-            <div class="car-wash-type-content">
-              <div class="car-wash-type-title">Basic Wash</div>
-            </div>
-          </div>
 
+
+
+        <div class="col-6 col-md-3">
+          <a style="text-decoration: none;" href="<?= base_url('single-service') ?>">
+            <div class="car-wash-type-card">
+              <img src="<?= base_url() ?>public/assets/img/car_wash/basic_wash.png" class="car-wash-type-bg" alt="Basic Wash">
+              <div class="car-wash-type-overlay"></div>
+
+              <div class="car-wash-type-content">
+                <div class="car-wash-type-title">Basic Wash</div>
+              </div>
+            </div>
+          </a>
         </div>
+
+
+
+
+
         <!-- Foam Wash -->
         <div class="col-6 col-md-3">
-          <div class="car-wash-type-card">
-            <img src="<?= base_url() ?>public/assets/img/car_wash/foam_wash.png" class="car-wash-type-bg" alt="Foam Wash">
-            <div class="car-wash-type-overlay"></div>
-            <div class="car-wash-type-content">
-              <div class="car-wash-type-title">Foam Wash</div>
+          <a style="text-decoration: none;" href="<?= base_url('single-service') ?>">
+            <div class="car-wash-type-card">
+              <img src="<?= base_url() ?>public/assets/img/car_wash/foam_wash.png" class="car-wash-type-bg" alt="Foam Wash">
+              <div class="car-wash-type-overlay"></div>
+              <div class="car-wash-type-content">
+                <div class="car-wash-type-title">Foam Wash</div>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
+
+
         <!-- Interior Cleaning -->
         <div class="col-6 col-md-3">
-          <div class="car-wash-type-card">
-            <img src="<?= base_url() ?>public/assets/img/car_wash/interior_cleaning.png" class="car-wash-type-bg" alt="Interior Cleaning">
-            <div class="car-wash-type-overlay"></div>
-            <div class="car-wash-type-content">
-              <div class="car-wash-type-title">Interior Cleaning</div>
+          <a style="text-decoration: none;" href="<?= base_url('single-service') ?>">
+            <div class="car-wash-type-card">
+              <img src="<?= base_url() ?>public/assets/img/car_wash/interior_cleaning.png" class="car-wash-type-bg" alt="Interior Cleaning">
+              <div class="car-wash-type-overlay"></div>
+              <div class="car-wash-type-content">
+                <div class="car-wash-type-title">Interior Cleaning</div>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <!-- Ceramic Coating -->
         <div class="col-6 col-md-3">
-          <div class="car-wash-type-card">
-            <img src="<?= base_url() ?>public/assets/img/car_wash/ceramic_coating.png" class="car-wash-type-bg" alt="Ceramic Coating">
-            <div class="car-wash-type-overlay"></div>
-            <div class="car-wash-type-content">
-
-              <div class="car-wash-type-title">Ceramic Coating</div>
+          <a style="text-decoration: none;" href="<?= base_url('single-service') ?>">
+            <div class="car-wash-type-card">
+              <img src="<?= base_url() ?>public/assets/img/car_wash/ceramic_coating.png" class="car-wash-type-bg" alt="Ceramic Coating">
+              <div class="car-wash-type-overlay"></div>
+              <div class="car-wash-type-content">
+                <div class="car-wash-type-title">Ceramic Coating</div>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <!-- Add more types as needed -->
       </div>
   </div>
 </section>
 <!-- ========================== -->
+
+
 
 <!-- =============== Tyre POlish =================== -->
 <section style="max-width: 1500px; margin: auto;">
@@ -345,32 +394,37 @@
       <div class="section-title">Tyre Polish Types</div>
       <div class="tyre-polish-scroll">
         <!-- Water Based -->
-        <div class="tyre-polish-card container">
-          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Water Based Polish">
+
+
+
+        <div class="tyre-polish-card container" onclick="window.location.href='<?= base_url('single-service') ?>'">
+          <img src="<?= base_url() ?>public/assets/img/services/tyre/water-based.png" class="tyre-polish-img" alt="Water Based Polish">
           <div class="tyre-polish-title">Water Based</div>
           <div class="tyre-polish-label">Matte/Satin Finish</div>
         </div>
+
+
         <!-- Solvent/Silicone Based -->
-        <div class="tyre-polish-card container">
-          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Solvent Polish">
+        <div class="tyre-polish-card container" onclick="window.location.href='<?= base_url('single-service') ?>'">
+          <img src="<?= base_url() ?>public/assets/img/services/tyre/solvent-based.png" class="tyre-polish-img" alt="Solvent Polish">
           <div class="tyre-polish-title">Solvent Based</div>
           <div class="tyre-polish-label">High Gloss Shine</div>
         </div>
         <!-- Gel Polish -->
-        <div class="tyre-polish-card container">
-          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Gel Polish">
+        <div class="tyre-polish-card container" onclick="window.location.href='<?= base_url('single-service') ?>'">
+          <img src="<?= base_url() ?>public/assets/img/services/tyre/gel-polish.png" class="tyre-polish-img" alt="Gel Polish">
           <div class="tyre-polish-title">Gel Polish</div>
           <div class="tyre-polish-label">Durable Protection</div>
         </div>
         <!-- Spray Shine -->
-        <div class="tyre-polish-card container">
-          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Spray Shine">
+        <div class="tyre-polish-card container" onclick="window.location.href='<?= base_url('single-service') ?>'">
+          <img src="<?= base_url() ?>public/assets/img/services/tyre/water-based.png" class="tyre-polish-img" alt="Spray Shine">
           <div class="tyre-polish-title">Spray Shine</div>
           <div class="tyre-polish-label">Fast Application</div>
         </div>
         <!-- Foam Cleaner/Polish -->
-        <div class="tyre-polish-card container">
-          <img src="<?= base_url() ?>public/assets/img/tyre.png" class="tyre-polish-img" alt="Foam Polish">
+        <div class="tyre-polish-card container" onclick="window.location.href='<?= base_url('single-service') ?>'">
+          <img src="<?= base_url() ?>public/assets/img/services/tyre/foam-polish.png" class="tyre-polish-img" alt="Foam Polish">
           <div class="tyre-polish-title">Foam Polish</div>
           <div class="tyre-polish-label">Clean + Polish</div>
         </div>
@@ -379,6 +433,9 @@
   </div>
 </section>
 <!-- ======================================== -->
+
+
+
 
 <!-- ================ Testimonial Section ================= -->
 <section class="google-review-section padd-mar">
@@ -450,5 +507,8 @@
 
 </section>
 <!-- ======================================== -->
+
+
+
 
 <?= $this->endSection(); ?>

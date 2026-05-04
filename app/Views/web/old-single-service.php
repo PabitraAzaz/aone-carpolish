@@ -21,9 +21,6 @@
     </button>
   </header>
 
-
-
-
   <script>
     document.addEventListener('DOMContentLoaded', function() {
 
@@ -72,14 +69,7 @@
     });
   </script>
 
-
-
-
-
-
   <section class="service-1">
-
-
     <section class="app-hero-slider">
       <div class="slider-track">
         <img src="<?= base_url() ?>public/assets/img/services/full-car-body-1.png" alt="">
@@ -168,12 +158,6 @@
 
   </section>
 
-
-
-
-
-
-
   <section class="service-2">
 
 
@@ -261,14 +245,6 @@
 
   </section>
 
-
-
-
-
-
-
-
-
   <section class="service-3">
 
 
@@ -348,13 +324,7 @@
 
   </section>
 
-
-
-
-
   <section class="service-4">
-
-
     <section class="app-hero-slider">
       <div class="slider-track">
         <img src="<?= base_url() ?>public/assets/img/services/seat-foam-wash-1.png" alt="">
@@ -444,14 +414,6 @@
 
   </section>
 
-
-
-
-
-
-
-
-
   <section class="service-5">
     <section class="app-hero-slider">
 
@@ -533,11 +495,6 @@
       </div>
     </div>
   </section>
-
-
-
-
-
 
   <section class="service-6">
     <section class="app-hero-slider">
@@ -635,12 +592,6 @@
 
 
   </section>
-
-
-
-
-
-
 
   <style>
     /* =====================================================
@@ -1292,7 +1243,7 @@
       }
     }
   </style>
-</main>
 
+</main>
 
 <?= $this->endSection(); ?>

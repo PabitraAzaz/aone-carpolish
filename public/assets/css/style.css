@@ -399,6 +399,7 @@ body {
 }
 
 @keyframes speed {
+
   0%,
   100% {
     transform: translate(0, 0);
@@ -591,6 +592,7 @@ body {
 }
 
 @keyframes speed {
+
   0%,
   100% {
     transform: translate(0, 0);
@@ -652,10 +654,10 @@ body {
   width: 100%;
   height: 70px;
 
-  /* ✅ Fully transparent */
+  /* âœ… Fully transparent */
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(20px);
-  /* ✅ Remove blur */
+  /* âœ… Remove blur */
   padding: 0.6rem 1rem;
   z-index: 1500;
   display: flex;
@@ -665,7 +667,7 @@ body {
   transition: all 0.4s ease;
 
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
-  /* ✅ No shadow or overlay */
+  /* âœ… No shadow or overlay */
 }
 
 .header-container {
@@ -725,7 +727,7 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Hover effect – rotate gradient + glow */
+/* Hover effect â€“ rotate gradient + glow */
 .header-icon:hover {
   transform: rotate(8deg) scale(1.1);
   box-shadow:
@@ -846,15 +848,13 @@ body {
   transform: scale(1.05);
 }
 
-/* Active Nav Item — Gradient Fill */
+/* Active Nav Item â€” Gradient Fill */
 .nav-item.active {
-  background: linear-gradient(
-    135deg,
-    var(--red),
-    var(--orange),
-    var(--green),
-    var(--blue)
-  );
+  background: linear-gradient(135deg,
+      var(--red),
+      var(--orange),
+      var(--green),
+      var(--blue));
   color: var(--white);
   transform: translateY(-3px);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
@@ -931,13 +931,11 @@ body {
     position: absolute;
     inset: 0;
     border-radius: 12px;
-    background: linear-gradient(
-      135deg,
-      var(--red),
-      var(--orange),
-      var(--green),
-      var(--blue)
-    );
+    background: linear-gradient(135deg,
+        var(--red),
+        var(--orange),
+        var(--green),
+        var(--blue));
     opacity: 0;
     transition: opacity 0.4s ease;
     z-index: 0;
@@ -1154,40 +1152,34 @@ body {
   border: none;
   outline: none;
   background: transparent;
-  color: linear-gradient(
-    90deg,
-    var(--red),
-    var(--blue),
-    var(--orange),
-    var(--green)
-  );
+  color: linear-gradient(90deg,
+      var(--red),
+      var(--blue),
+      var(--orange),
+      var(--green));
   font-size: 1rem;
   padding: 0.4rem 0.5rem;
 }
 
 .sticky-search input::placeholder {
-  color: linear-gradient(
-    90deg,
-    var(--red),
-    var(--blue),
-    var(--orange),
-    var(--green)
-  );
+  color: linear-gradient(90deg,
+      var(--red),
+      var(--blue),
+      var(--orange),
+      var(--green));
 }
 
 .sticky-search i {
-  color: linear-gradient(
-    90deg,
-    var(--red),
-    var(--blue),
-    var(--orange),
-    var(--green)
-  );
+  color: linear-gradient(90deg,
+      var(--red),
+      var(--blue),
+      var(--orange),
+      var(--green));
   font-size: 1.2rem;
   margin-left: 0.5rem;
 }
 
-/* ===== On Scroll (Sticky Mode — Only for Mobile) ===== */
+/* ===== On Scroll (Sticky Mode â€” Only for Mobile) ===== */
 @media (max-width: 991px) {
   .sticky-search.active {
     position: fixed;
@@ -1205,33 +1197,27 @@ body {
   }
 
   .sticky-search.active input {
-    color: linear-gradient(
-      90deg,
-      var(--red),
-      var(--blue),
-      var(--orange),
-      var(--green)
-    );
+    color: linear-gradient(90deg,
+        var(--red),
+        var(--blue),
+        var(--orange),
+        var(--green));
   }
 
   .sticky-search.active input::placeholder {
-    color: linear-gradient(
-      90deg,
-      var(--red),
-      var(--blue),
-      var(--orange),
-      var(--green)
-    );
+    color: linear-gradient(90deg,
+        var(--red),
+        var(--blue),
+        var(--orange),
+        var(--green));
   }
 
   .sticky-search.active i {
-    color: linear-gradient(
-      90deg,
-      var(--red),
-      var(--blue),
-      var(--orange),
-      var(--green)
-    );
+    color: linear-gradient(90deg,
+        var(--red),
+        var(--blue),
+        var(--orange),
+        var(--green));
   }
 
   @keyframes fadeSlideDown {
@@ -1276,23 +1262,19 @@ body {
   }
 
   .sticky-search input {
-    color: linear-gradient(
-      90deg,
-      var(--red),
-      var(--blue),
-      var(--orange),
-      var(--green)
-    );
+    color: linear-gradient(90deg,
+        var(--red),
+        var(--blue),
+        var(--orange),
+        var(--green));
   }
 
   .sticky-search input::placeholder {
-    color: linear-gradient(
-      90deg,
-      var(--red),
-      var(--blue),
-      var(--orange),
-      var(--green)
-    );
+    color: linear-gradient(90deg,
+        var(--red),
+        var(--blue),
+        var(--orange),
+        var(--green));
   }
 
   .sticky-search i {
@@ -1553,6 +1535,7 @@ body {
 
 /* Full image on mobile: increase height if needed */
 @media (max-width: 576px) {
+
   .service-image-wrapper,
   .card-service-img {
     height: 110px !important;
@@ -1617,11 +1600,9 @@ body {
   bottom: 0;
   right: 0;
   height: 45%;
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.6) 80%,
-    rgba(0, 0, 0, 0.08) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.6) 80%,
+      rgba(0, 0, 0, 0.08) 100%);
   z-index: 2;
 }
 
@@ -2113,7 +2094,7 @@ body {
 
 /* Responsive selects in one row on mobile */
 @media (max-width: 576px) {
-  .packages-section .row.g-2 > div {
+  .packages-section .row.g-2>div {
     flex: 0 0 48%;
   }
 
@@ -2140,7 +2121,7 @@ body {
   overflow: hidden;
 }
 
-/* Video container — 9:16 for mobile */
+/* Video container â€” 9:16 for mobile */
 .portrait-slider .video-container {
   position: relative;
   width: 100%;
@@ -2168,7 +2149,7 @@ body {
   }
 }
 
-/* Tablet — slightly less tall */
+/* Tablet â€” slightly less tall */
 @media (min-width: 768px) and (max-width: 1023px) {
   .portrait-slider .video-container {
     aspect-ratio: 9 / 15;
@@ -2176,7 +2157,7 @@ body {
   }
 }
 
-/* Desktop/Laptop — 3 shorts, compact height */
+/* Desktop/Laptop â€” 3 shorts, compact height */
 @media (min-width: 1024px) {
   .portrait-slider .video-container {
     aspect-ratio: 9 / 13;
@@ -2211,6 +2192,7 @@ body {
 
 /* Show arrows on desktop */
 @media (min-width: 768px) {
+
   .portrait-slider .swiper-button-next,
   .portrait-slider .swiper-button-prev {
     display: flex;
@@ -2219,6 +2201,7 @@ body {
 
 /* Smaller arrows on mobile */
 @media (max-width: 767px) {
+
   .portrait-slider .swiper-button-next,
   .portrait-slider .swiper-button-prev {
     width: 32px;
@@ -2486,11 +2469,9 @@ body {
   height: 4px;
   border-radius: 3px;
 
-  background: linear-gradient(
-    90deg,
-    var(--brand-color-1),
-    var(--brand-color-2)
-  );
+  background: linear-gradient(90deg,
+      var(--brand-color-1),
+      var(--brand-color-2));
   transition: width 0.4s ease;
   align-items: flex-start;
 }
@@ -2526,8 +2507,7 @@ body {
 
 .classic-footer {
   position: relative;
-  background: url("https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80")
-    center/cover no-repeat;
+  background: url("https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80") center/cover no-repeat;
   color: #fff;
   padding: 70px 20px 20px;
   font-family: "Poppins", sans-serif;
@@ -2625,7 +2605,8 @@ body {
 }
 
 .footer-socials a {
-  flex: 1; /* makes equal width */
+  flex: 1;
+  /* makes equal width */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2638,15 +2619,13 @@ body {
   text-decoration: none;
 }
 
-/* 🔥 Proper hover background */
+/* ðŸ”¥ Proper hover background */
 .footer-socials a:hover {
-  background: linear-gradient(
-    90deg,
-    var(--red),
-    var(--blue),
-    var(--orange),
-    var(--green)
-  );
+  background: linear-gradient(90deg,
+      var(--red),
+      var(--blue),
+      var(--orange),
+      var(--green));
   /*color: #ffcc00; */
   transform: scale(1.2);
   color: #fff;
@@ -3139,6 +3118,7 @@ body {
 
 /* Blink effect */
 @keyframes blink {
+
   0%,
   49%,
   100% {
@@ -3151,7 +3131,7 @@ body {
   }
 }
 
-/* CHARACTER-LENGTH–BASED TYPING ANIMATION */
+/* CHARACTER-LENGTHâ€“BASED TYPING ANIMATION */
 
 .typed-blogs {
   animation:
@@ -3539,38 +3519,38 @@ body {
 section {
   max-width: 1500px;
   margin: 80px auto;
-  padding: 0 15px; /* prevents edge sticking */
+  padding: 0 15px;
+  /* prevents edge sticking */
 }
 
-/* 📱 Mobile */
+/* ðŸ“± Mobile */
 @media (max-width: 576px) {
   section {
     margin: 40px auto;
   }
 }
 
-/* 📱 Small tablets */
+/* ðŸ“± Small tablets */
 @media (min-width: 577px) and (max-width: 768px) {
   section {
     margin: 50px auto;
   }
 }
 
-/* 💻 Tablets / small laptops */
+/* ðŸ’» Tablets / small laptops */
 @media (min-width: 769px) and (max-width: 1023px) {
   section {
     margin: 60px auto;
   }
 }
 
-/* 🖥️ Desktop */
+/* ðŸ–¥ï¸ Desktop */
 @media (min-width: 1024px) {
   section {
     margin: 80px auto;
   }
 }
 
-/* 🖥️ Large screens */
 @media (min-width: 1400px) {
   section {
     margin: 100px auto;
