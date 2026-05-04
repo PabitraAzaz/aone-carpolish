@@ -55,6 +55,8 @@
                     <h2>Car Service</h2>
                     <p class="rating">
                         <i class="fa-solid fa-star"></i> 4.8 (8.5K services)
+                        <br>
+                        <i class="fa-solid fa-tag"></i>  ₹ 999
                     </p>
                 </div>
 
@@ -106,6 +108,8 @@
 
             </div>
         </div>
+
+        <div class="section-divider"></div>
 
         <!-- ===== Packages Section ===== -->
         <div class="packages-section">
@@ -398,6 +402,86 @@
             </div>
         </div>
 
+    </div>
+
+
+    <style>
+        .bottom-nav {
+            display: none;
+        }
+
+        .bottom-cta {
+            position: fixed;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--white);
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            padding: 18px 28px;
+            border-radius: 18px;
+            max-width: 1200px;
+            width: calc(100% - 64px);
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+            justify-content: space-between;
+            z-index: 999;
+        }
+
+        .bottom-cta button {
+            background: linear-gradient(135deg, #f75e54ff, #ff3d2f);
+            color: #fff;
+            border: none;
+            padding: 8px 14px;
+            border-radius: 999px;
+            font-size: 0.8rem;
+            font-weight: 800;
+            cursor: pointer;
+            box-shadow: 0 6px 16px rgba(255, 122, 24, 0.45);
+        }
+
+        @media (max-width: 767px) {
+            .bottom-cta {
+                position: fixed;
+                bottom: 16px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: rgba(255, 255, 255, 0.96);
+                backdrop-filter: blur(10px);
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                padding: 10px 14px;
+                border-radius: 999px;
+                box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+                z-index: 1000;
+                width: 90%;
+            }
+
+            .bottom-cta span {
+                font-size: 0.9rem;
+                font-weight: 800;
+                color: #111;
+                white-space: nowrap;
+            }
+
+            .bottom-cta button {
+                background: linear-gradient(135deg, #f75e54ff, #ff3d2f);
+                color: #fff;
+                border: none;
+                padding: 8px 14px;
+                border-radius: 999px;
+                font-size: 0.8rem;
+                font-weight: 800;
+                cursor: pointer;
+                box-shadow: 0 6px 16px rgba(255, 122, 24, 0.45);
+            }
+        }
+    </style>
+    <?= $this->include('web/components/car_modal.php') ?>
+    <div class="bottom-cta">
+        <span id="selectedPrice">₹999 onwards</span>
+        <button id="openCarModal">Select Car</button>
     </div>
 
 </main>

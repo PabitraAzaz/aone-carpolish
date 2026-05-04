@@ -583,20 +583,12 @@
       <span id="selectedPrice">₹999 onwards</span>
       <button id="openCarModal">Select Car</button>
     </div>
-
-
-
-
-
-
-
-
   </section>
 
   <style>
     /* =====================================================
         DESKTOP / LAPTOP DEFAULT (PC FIRST)
-          ===================================================== */
+      ===================================================== */
 
     :root {
       --white: #ffffff;
