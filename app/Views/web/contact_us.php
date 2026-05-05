@@ -11,27 +11,91 @@
 
 <!-- ========================================== -->
 
+<!-- ================ Testimonial Section ================= -->
+<section class="google-review-section padd-mar">
+  <div class="container">
+    <div class="google-review-heading">
+      <div class="section-title">Google Reviews</div>
+    </div>
+
+    <div class="swiper googleReviewSwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="gr-card">
+            <span class="gr-quote">“</span>
+
+            <div class="gr-badge">
+              <img src="<?= base_url() ?>public/assets/img/g-logo.png">
+              <span>Google Review</span>
+            </div>
+
+            <div class="gr-stars">★★★★★</div>
+
+            <p class="gr-text">
+              Excellent service and authentic gemstones. Very professional guidance.
+              Highly recommended for genuine gemstone purchases.
+            </p>
+
+            <div class="gr-user">
+              <img src="<?= base_url() ?>public/assets/img/testimonial_icon.png">
+              <div>
+                <h4>Alena Rosser</h4>
+                <span>Local Guide • 8 Reviews</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Duplicate -->
+        <div class="swiper-slide">
+          <div class="gr-card">
+            <span class="gr-quote">“</span>
+
+            <div class="gr-badge">
+              <img src="<?= base_url() ?>public/assets/img/g-logo.png">
+              <span>Google Review</span>
+            </div>
+
+            <div class="gr-stars">★★★★★</div>
+
+            <p class="gr-text">
+              One of the best gemstone shops in Kolkata. Trusted and transparent.
+            </p>
+
+            <div class="gr-user">
+              <img src="<?= base_url() ?>public/assets/img/testimonial_icon.png">
+              <div>
+                <h4>Manish Bhaskar</h4>
+                <span>Local Guide • 12 Reviews</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+</section>
+<!-- ======================================== -->
+
 <section class="contact-info-section container-row padd-mar">
   <div class="row gy-4 justify-content-center">
     <div class="col-12 col-md-4 info-col">
       <div class="info-card">
         <div class="info-icon"><i class="fas fa-phone"></i></div>
-        <h6 class="info-title">Phone</h6>
-        <p class="info-text">+(91) 85850 52925<br>+(91) 8585052925</p>
-      </div>
-    </div>
-    <div class="col-12 col-md-4 info-col">
-      <div class="info-card">
-        <div class="info-icon"><i class="fas fa-envelope"></i></div>
-        <h6 class="info-title">Email</h6>
-        <p class="info-text">care@aonecarpolish.com<br>care@aonecarpolish.com</p>
+        <h6 class="info-title">Connect with<br>Customer Care</h6>
+        <p class="info-text">+(91) 85850 52925<br>care@aonecarpolish.com</p>
       </div>
     </div>
     <div class="col-12 col-md-4 info-col">
       <div class="info-card">
         <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
         <h6 class="info-title">Address</h6>
-        <p class="info-text">5D, Newtown Square, Near Chinar Park, Newtown AA-II, <br>Kolkata - 700136, West Bengal</p>
+        <p class="info-text">224 Bholanath Sarani, Near Zenith Auto, Chinar Park, Kolkata, West Bengal-700157</p>
       </div>
     </div>
   </div>
@@ -81,11 +145,10 @@
       <form class="contact-form" method="POST">
           <h3 class="section-title"> Let’s Talk to an experts</h3>
           <p></p>
-          <input type="text" name="username" class="form-control" placeholder="Full Name" required />
-          <input type="email" name="email" class="form-control" placeholder="Email Address" required />
-          <input type="tel" name="phone" class="form-control" placeholder="Phone Number" />
-          <textarea class="form-control" name="message" rows="5" placeholder="Your Message" required></textarea>
-          <button type="submit" class="btn-submit">Send Message</button>
+          <input type="text" name="username" class="form-control" placeholder="Name" required />
+          <input type="tel" name="phone" class="form-control" placeholder="Number" />
+          <textarea class="form-control" name="message" rows="5" placeholder="Your Requirements" required></textarea>
+          <button type="submit" class="btn-submit">Send Enquiry</button>
       </form>
     </div>
   </div>

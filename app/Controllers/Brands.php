@@ -42,9 +42,29 @@ class Brands extends BaseController
             ->where('brand_id', $brand['brand_id'])
             ->first();
 
+
+        // Load brands and models for car modal
+        $brandsModel = new \App\Models\BrandsModel();
+        $modelsModel = new \App\Models\ModelsModel();
+
+        $brands = $brandsModel->findAll();
+        $models = $modelsModel->findAll();
+
+        // Group models by brand
+        $carData = [];
+        foreach ($models as $model) {
+            $brandId = $model['brand_id'];
+            if (!isset($carData[$brandId])) {
+                $carData[$brandId] = [];
+            }
+            $carData[$brandId][] = $model;
+        }
+
         return view('web/book_online', [
             'brand' => $brand,
-            'model' => $model
+            'model' => $model,
+            'brands' => $brands,
+            'carData' => $carData
         ]);
     }
 }

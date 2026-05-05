@@ -117,11 +117,11 @@
         }
 
         /* Section header with a bottom border divider */
-        .section-divider {
+        /* .section-divider {
             border-bottom: 1px solid var(--border-soft);
             margin-bottom: 2rem;
             padding-bottom: 1rem;
-        }
+        } */
     </style>
 
     <style>
@@ -232,7 +232,7 @@
                             <div class="d-flex align-items-center mb-4 pb-3 border-bottom border-secondary border-opacity-25">
                                 <img src="<?= base_url('public/assets/img/brand/') . $brand['logo'] ?>" width="50" class="me-3">
                                 <div>
-                                    <small class="text-uppercase tracking-wider opacity-50" style="font-size: 0.7rem;">Manufacturer</small>
+                                    <small class="text-uppercase tracking-wider opacity-50" style="font-size: 0.7rem;">Brand</small>
                                     <h4 class="mb-0 fw-bold"><?= $brand['name'] ?></h4>
                                 </div>
                             </div>
@@ -256,32 +256,82 @@
                                 <button onclick="location.reload()" class="btn btn-outline-dark rounded-pill mt-3">Book Another</button>
                             </div>
 
+                            <div class="section-divider">
+                                <h4 class="fw-bold text-dark mb-1">Service Details</h4>
+                                <p class="text-muted mb-0" style="font-size: 12px;">What you will get</p>
+                            </div>
+                            <br>
+                            <!-- Custom CSS -->
+                            <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/service.css?v=124" />
+                            <?= $this->include('web/components/service-modal.php') ?>
+
+                            <div class="package-details">
+
+                                <div class="title-row">
+                                    <h5>Full Car Body Wax Polish</h5>
+                                    <button class="add-btn" onclick="openModal(1)">View details</button>
+                                </div>
+
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i> 4.7 (5.5K services)
+                                </div>
+
+                                <div class="info">
+                                    <span><i class="fa-regular fa-clock"></i> 2-3 hours</span>
+                                    <span><i class="fa-solid fa-location-dot"></i> At your doorstep/workshop</span>
+                                </div>
+                            </div>
+                            <b></b>
+                            <hr>
+                            <br>
                             <div id="formContent">
                                 <div class="section-divider">
                                     <h3 class="fw-bold text-dark mb-1">Complete Your Booking</h3>
                                     <p class="text-muted mb-0">Experience excellence in every detail.</p>
                                 </div>
-
+                                <br>
                                 <form id="bookingForm" novalidate>
                                     <input type="hidden" name="model_id" value="<?= $model['id'] ?>">
 
                                     <div class="row g-4">
                                         <div class="col-md-6">
                                             <label class="form-label small fw-bold text-uppercase opacity-75">Full Name</label>
-                                            <input type="text" name="name" class="form-control rounded-3" placeholder="John Doe" required minlength="3">
+                                            <input type="text" name="name" class="form-control rounded-3" placeholder="Mr. Anubhav" required minlength="3">
                                             <div class="invalid-feedback">Required (min. 3 chars)</div>
                                         </div>
 
                                         <div class="col-md-6">
-                                            <label class="form-label small fw-bold text-uppercase opacity-75">Mobile Number</label>
-                                            <input type="tel" name="mobile" pattern="[0-9]{10}" class="form-control rounded-3" placeholder="9876543210" required>
+                                            <label class="form-label small fw-bold text-uppercase opacity-75">Number</label>
+                                            <input type="tel" name="mobile" pattern="[0-9]{10}" class="form-control rounded-3" placeholder="0123456789" required>
                                             <div class="invalid-feedback">10-digit number required</div>
                                         </div>
 
                                         <div class="col-12">
                                             <label class="form-label small fw-bold text-uppercase opacity-75">Service Address</label>
-                                            <textarea name="address" rows="3" class="form-control rounded-3" placeholder="Street, City, Zip Code" required></textarea>
+                                            <textarea name="address" rows="3" class="form-control rounded-3" placeholder="Salt Lake, Newtown, Kolkata" required></textarea>
                                             <div class="invalid-feedback">Please provide your address.</div>
+                                        </div>
+
+                                        <!-- Custom JS -->
+                                        <script src="<?= base_url('public/assets/js/index.js') ?>"></script>
+
+                                        <div class="row mb-4 g-2 justify-content-center">
+                                            <div class="col-6 col-sm-4">
+                                                <select id="brand_id" class="form-select">
+                                                    <option value="" disabled selected>Select Brand</option>
+                                                    <?php foreach ($brands as $brand): ?>
+                                                        <option value="<?= $brand['brand_id'] ?>" data-slug="<?= $brand['slug'] ?>">
+                                                            <?= esc($brand['name']) ?>
+                                                        </option>
+                                                    <?php endforeach; ?>
+                                                </select>
+                                            </div>
+
+                                            <div class="col-6 col-sm-4">
+                                                <select id="model_id" class="form-select" disabled>
+                                                    <option value="" disabled selected>Select Model</option>
+                                                </select>
+                                            </div>
                                         </div>
 
                                         <div class="col-12">
@@ -298,7 +348,71 @@
                                                     style="display:none;"></span>
                                             </button>
 
+                                            <style>
+                                                /* Container */
+                                                .payment-info {
+                                                    text-align: center;
+                                                    margin-top: 12px;
+                                                    padding: 0 10px;
+                                                }
 
+                                                /* Secure line */
+                                                .secure-text {
+                                                    font-size: 12px;
+                                                    color: #28a745;
+                                                    font-weight: 500;
+                                                    margin-bottom: 10px;
+                                                }
+
+                                                /* 🔥 Highlighted second paragraph */
+                                                .info-box {
+                                                    font-size: 13px;
+                                                    color: #333;
+                                                    line-height: 1.5;
+
+                                                    background: linear-gradient(135deg, #fff6e5, #ffe0cc);
+                                                    border-left: 4px solid #ff3d2f;
+
+                                                    padding: 10px 12px;
+                                                    border-radius: 10px;
+
+                                                    max-width: 330px;
+                                                    margin: 0 auto;
+
+                                                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+                                                }
+
+                                                .info-box {
+                                                    background: rgba(255, 255, 255, 0.6);
+                                                    backdrop-filter: blur(6px);
+                                                    border-radius: 10px;
+                                                    padding: 10px;
+                                                }
+
+                                                .info-box {
+                                                    background: #222;
+                                                    color: #fff;
+                                                    border-radius: 8px;
+                                                    padding: 10px;
+                                                }
+
+                                                .info-box {
+                                                    color: #000000;
+                                                    background: #eafaf1;
+                                                    border-left: 4px solid #28a745;
+                                                }
+                                            </style>
+                                            <div class="payment-info">
+                                                <p class="secure-text">
+                                                    <i class="fas fa-lock"></i>
+                                                    Your payment is secured by Razorpay
+                                                </p>
+
+                                                <p class="info-box">
+                                                    Once the payment is completed successfully, you will receive the bill,
+                                                    confirmation order number, and agent service details.
+                                                </p>
+                                            </div>
 
                                             <div id="errorMessage" class="text-danger small text-center mt-3" style="display:none;"></div>
                                         </div>
@@ -364,7 +478,7 @@
                         key: result.key,
                         amount: result.amount,
                         currency: "INR",
-                        name: "Aone Car Polish",
+                        name: "A-One Car Polish",
                         description: "Car Service Booking Payment",
                         order_id: result.order_id,
 

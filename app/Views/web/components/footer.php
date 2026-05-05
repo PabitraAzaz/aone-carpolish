@@ -5,7 +5,7 @@
       India's fastest<br>car polish service
       <span class="polish-hero-heart">&hearts;</span>
     </div>
-    <div class="polish-hero-brand">Aone Car Polish</div>
+    <div class="polish-hero-brand">A-One Car Polish</div>
   </div>
 </div>
 
@@ -41,7 +41,7 @@
       <div class="footer-logo-box">
         <img src="<?= base_url() ?>public/assets/img/logo/logo-white.png" alt="Logo" class="footer-logo-img">
       </div>
-      <p>Aone Car Polish can convert your oh-so-dirty-looking car into a shiny, luxurious vehicle.
+      <p>A-One Car Polish can convert your oh-so-dirty-looking car into a shiny, luxurious vehicle.
         We provide a complete service package at affordable prices.
         You will always get a personal touch for your dearest car..</p>
       <hr>
@@ -133,7 +133,7 @@
 
   <div class="footer-bottom">
     <p>
-      © <?= date('Y') ?> Aone Car Polish. All Rights Reserved | Managed by
+      © <?= date('Y') ?> A-One Car Polish. All Rights Reserved | Managed by
       <a href="https://www.aonebox.com/" style="color: var(--orange);">a-one box Media</a>
     </p>
   </div>

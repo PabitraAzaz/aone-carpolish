@@ -277,5 +277,75 @@
 </script>
 <!-- ======================================================================== -->
 
+<!-- ================ Testimonial Section ================= -->
+<section class="google-review-section padd-mar">
+  <div class="container">
+    <div class="google-review-heading">
+      <div class="section-title">Google Reviews</div>
+    </div>
+
+    <div class="swiper googleReviewSwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="gr-card">
+            <span class="gr-quote">“</span>
+
+            <div class="gr-badge">
+              <img src="<?= base_url() ?>public/assets/img/g-logo.png">
+              <span>Google Review</span>
+            </div>
+
+            <div class="gr-stars">★★★★★</div>
+
+            <p class="gr-text">
+              Excellent service and authentic gemstones. Very professional guidance.
+              Highly recommended for genuine gemstone purchases.
+            </p>
+
+            <div class="gr-user">
+              <img src="<?= base_url() ?>public/assets/img/testimonial_icon.png">
+              <div>
+                <h4>Alena Rosser</h4>
+                <span>Local Guide • 8 Reviews</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Duplicate -->
+        <div class="swiper-slide">
+          <div class="gr-card">
+            <span class="gr-quote">“</span>
+
+            <div class="gr-badge">
+              <img src="<?= base_url() ?>public/assets/img/g-logo.png">
+              <span>Google Review</span>
+            </div>
+
+            <div class="gr-stars">★★★★★</div>
+
+            <p class="gr-text">
+              One of the best gemstone shops in Kolkata. Trusted and transparent.
+            </p>
+
+            <div class="gr-user">
+              <img src="<?= base_url() ?>public/assets/img/testimonial_icon.png">
+              <div>
+                <h4>Manish Bhaskar</h4>
+                <span>Local Guide • 12 Reviews</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+</section>
+<!-- ======================================== -->
 
 <?= $this->endSection(); ?>

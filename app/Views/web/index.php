@@ -14,7 +14,7 @@
             <img src="<?= base_url('public/assets/img/logo/logo.png') ?>"
                 id="headerLogo"
                 class="header-logo"
-                alt="Aone Car Polish">
+                alt="A-One Car Polish">
         </a>
     </span>
 </header>
@@ -136,7 +136,7 @@
         </div>
 
         <div class="mobile-search sticky-search">
-            <input type="text" placeholder="Search for services, products..." class="search-input" />
+            <input type="text" placeholder="Search for vehicles, services..." class="search-input" />
             <i class="fas fa-search search-icon"></i>
         </div>
     </div>
@@ -374,7 +374,7 @@
                 <h3 class="about-title section-title">A-One Car Polish</h3>
 
                 <p class="about-short">
-                    Welcome to Aone Car Polish, the only first-class best car polish service in Newtown Kolkata.
+                    Welcome to A-One Car Polish, the only first-class best car polish service in Newtown Kolkata.
                     Our experts can provide the best car detailing services in Newtown Kolkata because they
                     have the training and several years of experience in this field.
 
@@ -392,7 +392,7 @@
                             Customers trust us because we provide the correct car polish for the right car. For example,
                             a polish meant for leather seats will damage if used on vinyl upholstery.
 
-                        <p> Aone Car Polish equals trust. Our personal treatment of your cars will bring them back to life.</p>
+                        <p> A-One Car Polish equals trust. Our personal treatment of your cars will bring them back to life.</p>
 
                         <p>However, you often meet with disappointment because either the service is not up to the mark or
                             they use cheap products for your luxurious cars. It is where we differ. We look for quality over
@@ -411,7 +411,7 @@
 
                 <div class="btn-group">
                     <button class="read-more-btn">Read More</button>
-                    <a href="#" class="service-btn">Explore Our Services</a>
+                    <a href="<?= base_url('single-service') ?>" class="service-btn">Explore Our Services</a>
                 </div>
 
             </div>
@@ -440,9 +440,9 @@
                             <div class="car-service-card-body">
                                 <div class="car-service-title">Premium Car Polish</div>
                                 <div class="small text-secondary mb-1">
-                                    <span class="text-success">&#9733; 4.8</span> • 30-40 mins
+                                    <span class="text-success">&#9733; 4.8</span> • 90-120 mins
                                 </div>
-                                <div class="small">From ₹1299</div>
+                                <div class="small">From ₹1,499</div>
                             </div>
                         </div>
                     </div>
@@ -456,9 +456,9 @@
                             <div class="car-service-card-body">
                                 <div class="car-service-title">Express Detailing</div>
                                 <div class="small text-secondary mb-1">
-                                    <span class="text-success">&#9733; 4.7</span> • 20-30 mins
+                                    <span class="text-success">&#9733; 4.7</span> • 60-90 mins
                                 </div>
-                                <div class="small">From ₹699</div>
+                                <div class="small">From ₹999</div>
                             </div>
                         </div>
                     </div>
@@ -472,9 +472,9 @@
                             <div class="car-service-card-body">
                                 <div class="car-service-title">Ceramic Shine</div>
                                 <div class="small text-secondary mb-1">
-                                    <span class="text-success">&#9733; 4.9</span> • 2 hrs
+                                    <span class="text-success">&#9733; 4.9</span> • 3 hrs
                                 </div>
-                                <div class="small">From ₹2499</div>
+                                <div class="small">From ₹2,499</div>
                             </div>
                         </div>
                     </div>
@@ -500,7 +500,7 @@
                         <div class="slide-text">
                             <div class="slide-headline">Full Body Wax Polish</div>
                             <div class="slide-subtext">
-                                Aone Car Polish offers top-quality car polish service in Newtown Kolkata at attractive prices.
+                                A-One Car Polish offers top-quality car polish service in Newtown Kolkata at attractive prices.
                                 Our service can make your dull-looking car shine like never before.
                             </div>
                         </div>
@@ -514,7 +514,7 @@
                         <div class="slide-text">
                             <div class="slide-headline">Dashboard & Door Wax Polish</div>
                             <div class="slide-subtext">
-                                Aone Car Polish provides a specific dashboard and door polish service for your car.
+                                A-One Car Polish provides a specific dashboard and door polish service for your car.
                                 This helps maintain one of the most neglected parts of your vehicle, keeping it clean and shiny.
                             </div>
                         </div>
@@ -542,7 +542,7 @@
                         <div class="slide-text">
                             <div class="slide-headline">All Seat Foam Wash</div>
                             <div class="slide-subtext">
-                                Aone Car Polish offers seat foam wash and polish service that cleans your dirty seat covers
+                                A-One Car Polish offers seat foam wash and polish service that cleans your dirty seat covers
                                 and restores shine.
                             </div>
                         </div>
@@ -556,7 +556,7 @@
                         <div class="slide-text">
                             <div class="slide-headline">NICKEL Chrome Wax Polish</div>
                             <div class="slide-subtext">
-                                Bring back the lost shine to your nickel chrome with Aone Car Polish’s top-class polishing service.
+                                Bring back the lost shine to your nickel chrome with A-One Car Polish’s top-class polishing service.
                             </div>
                         </div>
                     </div>
@@ -726,7 +726,7 @@
                     <div class="feature-icon mb-2">
                         <i class="fas fa-hand-holding-usd"></i>
                     </div>
-                    <h6 class="feature-title">Low Prices</h6>
+                    <h6 class="feature-title">Guranteed Low Prices</h6>
                 </div>
             </div>
         </div>
@@ -892,6 +892,77 @@
         </div>
     </section>
     <!-- ======================================================= -->
+
+    <!-- ================ Testimonial Section ================= -->
+    <section class="google-review-section padd-mar">
+        <div class="container">
+            <div class="google-review-heading">
+                <div class="section-title">Google Reviews</div>
+            </div>
+
+            <div class="swiper googleReviewSwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="gr-card">
+                            <span class="gr-quote">“</span>
+
+                            <div class="gr-badge">
+                                <img src="<?= base_url() ?>public/assets/img/g-logo.png">
+                                <span>Google Review</span>
+                            </div>
+
+                            <div class="gr-stars">★★★★★</div>
+
+                            <p class="gr-text">
+                                Excellent service and authentic gemstones. Very professional guidance.
+                                Highly recommended for genuine gemstone purchases.
+                            </p>
+
+                            <div class="gr-user">
+                                <img src="<?= base_url() ?>public/assets/img/testimonial_icon.png">
+                                <div>
+                                    <h4>Alena Rosser</h4>
+                                    <span>Local Guide • 8 Reviews</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Duplicate -->
+                    <div class="swiper-slide">
+                        <div class="gr-card">
+                            <span class="gr-quote">“</span>
+
+                            <div class="gr-badge">
+                                <img src="<?= base_url() ?>public/assets/img/g-logo.png">
+                                <span>Google Review</span>
+                            </div>
+
+                            <div class="gr-stars">★★★★★</div>
+
+                            <p class="gr-text">
+                                One of the best gemstone shops in Kolkata. Trusted and transparent.
+                            </p>
+
+                            <div class="gr-user">
+                                <img src="<?= base_url() ?>public/assets/img/testimonial_icon.png">
+                                <div>
+                                    <h4>Manish Bhaskar</h4>
+                                    <span>Local Guide • 12 Reviews</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ======================================== -->
 
     <!-- =================== Choose Your Package ==========================  -->
     <section class="packages-section">

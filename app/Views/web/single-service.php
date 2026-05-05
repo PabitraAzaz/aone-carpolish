@@ -54,12 +54,12 @@
                 <div>
                     <h2>Car Service</h2>
                     <p class="rating">
-                        <i class="fa-solid fa-star"></i> 4.8 (8.5K services)
+                        <i class="fa-solid fa-star"></i> 4.8 (5.5K services)
                         <br>
-                    <div class="price">
+                    <p class="price">
                         <i class="fa-solid fa-tag"></i>
-                        ₹7,999 <span>₹10,000</span>
-                    </div>
+                        ₹999 <span>₹3,999</span>
+                    </p>
                     </p>
                 </div>
 
@@ -75,8 +75,8 @@
                 <div class="left">
                     <i class="fa-solid fa-circle-check"></i>
                     <div>
-                        <span class="uc">CAR COVER</span>
-                        <p>Up to 30 days warranty on servicing</p>
+                        <span class="uc">We assure</span>
+                        <p>Shine will continue upto 3 months</p>
                     </div>
                 </div>
                 <i class="fa-solid fa-chevron-right arrow"></i>
@@ -135,12 +135,12 @@
                     </div>
 
                     <div class="rating">
-                        <i class="fa-solid fa-star"></i> 4.8 (12K services)
+                        <i class="fa-solid fa-star"></i> 4.7 (5.5K services)
                     </div>
 
                     <div class="info">
-                        <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
-                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                        <span><i class="fa-regular fa-clock"></i> 2-3 hours</span>
+                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep/workshop</span>
                     </div>
 
                     <ul class="features">
@@ -172,12 +172,12 @@
                     </div>
 
                     <div class="rating">
-                        <i class="fa-solid fa-star"></i> 4.7 (9K services)
+                        <i class="fa-solid fa-star"></i> 4.5 (5.5K services)
                     </div>
 
                     <div class="info">
-                        <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
-                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                        <span><i class="fa-regular fa-clock"></i> 1-2 hours</span>
+                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep/workshop</span>
                     </div>
 
                     <ul class="features">
@@ -209,12 +209,12 @@
                     </div>
 
                     <div class="rating">
-                        <i class="fa-solid fa-star"></i> 4.9 (15K services)
+                        <i class="fa-solid fa-star"></i> 4.7 (5.5K services)
                     </div>
 
                     <div class="info">
-                        <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
-                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                        <span><i class="fa-regular fa-clock"></i> 2-3 hours</span>
+                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep/workshop</span>
                     </div>
 
                     <ul class="features">
@@ -246,12 +246,12 @@
                     </div>
 
                     <div class="rating">
-                        <i class="fa-solid fa-star"></i> 4.8 (11K services)
+                        <i class="fa-solid fa-star"></i> 4.8 (5.5K services)
                     </div>
 
                     <div class="info">
-                        <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
-                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                        <span><i class="fa-regular fa-clock"></i> 2-3 hours</span>
+                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep/workshop</span>
                     </div>
 
                     <ul class="features">
@@ -271,7 +271,7 @@
             <div class="package-card">
 
                 <div class="package-banner">
-                    <span class="tag">Metal Care</span>
+                    <span class="tag">Chrome Care</span>
                     <img src="<?= base_url('public/assets/img/services/nickle-polish.png') ?>">
                 </div>
 
@@ -283,12 +283,12 @@
                     </div>
 
                     <div class="rating">
-                        <i class="fa-solid fa-star"></i> 4.7 (8K services)
+                        <i class="fa-solid fa-star"></i> 4.7 (5.5K services)
                     </div>
 
                     <div class="info">
                         <span><i class="fa-regular fa-clock"></i> 2–3 hours</span>
-                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep/workshop</span>
                     </div>
 
                     <ul class="features">
@@ -320,12 +320,12 @@
                     </div>
 
                     <div class="rating">
-                        <i class="fa-solid fa-star"></i> 4.8 (10K services)
+                        <i class="fa-solid fa-star"></i> 4.8 (5.5K services)
                     </div>
 
                     <div class="info">
-                        <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
-                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                        <span><i class="fa-regular fa-clock"></i> 2-3 hours</span>
+                        <span><i class="fa-solid fa-location-dot"></i> At your doorstep/workshop</span>
                     </div>
 
                     <ul class="features">
@@ -342,7 +342,6 @@
         </div>
 
     </div>
-
 
     <!-- ================= DESKTOP LAYOUT ================= -->
     <div class="desktop-layout">
@@ -400,12 +399,12 @@
                         </div>
 
                         <div class="rating">
-                            <i class="fa-solid fa-star"></i> 4.8 (12K services)
+                            <i class="fa-solid fa-star"></i> 4.7 (5.5K services)
                         </div>
 
                         <div class="info">
-                            <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
-                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                            <span><i class="fa-regular fa-clock"></i> 2-3 hours</span>
+                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep/workshop</span>
                         </div>
 
                         <ul class="features">
@@ -433,12 +432,12 @@
                         </div>
 
                         <div class="rating">
-                            <i class="fa-solid fa-star"></i> 4.7 (9K services)
+                            <i class="fa-solid fa-star"></i> 4.7 (5.5K services)
                         </div>
 
                         <div class="info">
-                            <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
-                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                            <span><i class="fa-regular fa-clock"></i> 2-3 hours</span>
+                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep/workshop</span>
                         </div>
 
                         <ul class="features">
@@ -466,12 +465,12 @@
                         </div>
 
                         <div class="rating">
-                            <i class="fa-solid fa-star"></i> 4.9 (15K services)
+                            <i class="fa-solid fa-star"></i> 4.9 (5.5K services)
                         </div>
 
                         <div class="info">
-                            <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
-                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                            <span><i class="fa-regular fa-clock"></i> 2-3 hours</span>
+                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep/workshop</span>
                         </div>
 
                         <ul class="features">
@@ -499,12 +498,12 @@
                         </div>
 
                         <div class="rating">
-                            <i class="fa-solid fa-star"></i> 4.8 (11K services)
+                            <i class="fa-solid fa-star"></i> 4.8 (5.5K services)
                         </div>
 
                         <div class="info">
-                            <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
-                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                            <span><i class="fa-regular fa-clock"></i> 2-3 hours</span>
+                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep/workshop</span>
                         </div>
 
                         <ul class="features">
@@ -532,12 +531,12 @@
                         </div>
 
                         <div class="rating">
-                            <i class="fa-solid fa-star"></i> 4.7 (8K services)
+                            <i class="fa-solid fa-star"></i> 4.7 (5.5K services)
                         </div>
 
                         <div class="info">
                             <span><i class="fa-regular fa-clock"></i> 2–3 hours</span>
-                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep/workshop</span>
                         </div>
 
                         <ul class="features">
@@ -565,12 +564,12 @@
                         </div>
 
                         <div class="rating">
-                            <i class="fa-solid fa-star"></i> 4.8 (10K services)
+                            <i class="fa-solid fa-star"></i> 4.8 (5.5K services)
                         </div>
 
                         <div class="info">
-                            <span><i class="fa-regular fa-clock"></i> 5–8 hours</span>
-                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep / Workshop</span>
+                            <span><i class="fa-regular fa-clock"></i> 2-3 hours</span>
+                            <span><i class="fa-solid fa-location-dot"></i> At your doorstep/workshop</span>
                         </div>
 
                         <ul class="features">
@@ -596,8 +595,12 @@
                         <div>
                             <h2>Car Service</h2>
                             <p class="rating">
-                                <i class="fa-solid fa-star"></i> 4.8 (8.5K services)
+                                <i class="fa-solid fa-star"></i> 4.8 (5.5K services)
                             </p>
+                            <p class="price">
+                        <i class="fa-solid fa-tag"></i>
+                        ₹999 <span style="">₹3,999</span>
+                    </p>
                         </div>
 
                         <div class="instant-box">
@@ -612,8 +615,8 @@
                         <div class="left">
                             <i class="fa-solid fa-circle-check"></i>
                             <div>
-                                <span class="uc">CAR COVER</span>
-                                <p>Up to 30 days warranty on servicing</p>
+                                <span class="uc">We assure</span>
+                                <p>Shine will continue upto 3 months</p>
                             </div>
                         </div>
                         <i class="fa-solid fa-chevron-right arrow"></i>
@@ -650,7 +653,6 @@
         </div>
 
     </div>
-
 
     <style>
         .bottom-nav {

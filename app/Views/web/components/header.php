@@ -66,14 +66,34 @@
 
       <!-- Brand Logo (Desktop) -->
       <a href="<?= base_url() ?>" class="logo logo--desktop">
-        <img src="<?= base_url('public/assets/img/logo/logo-black.png') ?>" alt="Aone Car Polish Logo" />
+        <img src="<?= base_url('public/assets/img/logo/logo-black.png') ?>" alt="A-One Car Polish Logo" />
       </a>
 
       <!-- Profile Icon -->
       <a class="header-icon" id="profileBtn" href="<?= base_url('profile') ?>">
-        <i class="fas fa-user"></i>
-      </a>
+  <i class="fas fa-user"></i>
+  <span>Profile</span>
+</a>
+      <style>
+        .header-icon {
+          display: flex;
+          flex-direction: column;
+          /* Stack items vertically */
+          align-items: center;
+          /* Center horizontally */
+          text-decoration: none;
+        }
 
+        .header-icon i {
+          font-size: 18px;
+          /* Adjust icon size if needed */
+        }
+
+        .header-icon span {
+          font-size: 10px;
+          margin-top: 4px;
+        }
+      </style>
     </div>
 
     <!-- Desktop Navigation -->
